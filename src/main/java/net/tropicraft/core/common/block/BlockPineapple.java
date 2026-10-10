@@ -20,7 +20,6 @@ import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 import net.minecraftforge.common.IPlantable;
 import net.tropicraft.core.common.enums.TropicraftTallPlants;
-import net.tropicraft.core.registry.ItemRegistry;
 
 public class BlockPineapple extends BlockTallPlant implements IGrowable, IPlantable {
 
@@ -195,6 +194,22 @@ public class BlockPineapple extends BlockTallPlant implements IGrowable, IPlanta
 			} else { // If just the stem
 				return this.canPlaceBlockAt(worldIn, pos);
 			}
+		}
+	}
+
+	@Override
+	public void onBlockHarvested(World worldIn, BlockPos pos, IBlockState state, EntityPlayer player) {
+		super.onBlockHarvested(worldIn, pos, state, player);
+		BlockPos blockpos1 = pos.up();
+
+		if (state.getValue(HALF) == PlantHalf.LOWER && worldIn.getBlockState(blockpos1).getBlock() == this)
+		{
+			if (!player.capabilities.isCreativeMode)
+			{
+				worldIn.setBlockToAir(pos);
+			}
+
+			worldIn.setBlockToAir(blockpos1);
 		}
 	}
 
