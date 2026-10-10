@@ -1,30 +1,18 @@
 /*
 package net.tropicraft.core.common.compatibility;
 
-import com.pam.harvestcraft.tileentities.MarketData;
-import net.minecraft.init.Items;
-import net.minecraft.item.ItemStack;
+import com.pam.harvestcraft.tileentities.MarketItems;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import static net.tropicraft.core.registry.BlockRegistry.saplings;
-
-public class Harvestcraft {
+public class Harvestcraft extends MarketItems {
 
     public static void preInit() {}
-
-    //public static final List<MarketData> marketToAdd = new ArrayList<>();
 
     public static void init() {
 
         // Market
 
-        // Does nothing
-        //new MarketData(new ItemStack(saplings, 1, 0), new ItemStack(Items.EMERALD), HarvestCraft.config.marketsaplingPrice);
-        //registerItems(new MarketData(new ItemStack(saplings, 1, 0), new ItemStack(Items.EMERALD), HarvestCraft.config.marketsaplingPrice));
-        //MarketData marketData = new MarketData(new ItemStack(saplings, 1, 0), new ItemStack(Items.EMERALD),1);
-        //Harvestcraft.marketToAdd.add(marketData);
+        // Of course this isn't working because Pam thought it'd be a great idea to make every single function inside MarketItems private.
+        //registerItems(new MarketData(new ItemStack(Items.DYE, 1, 15), currency, HarvestCraft.config.marketbonemealPrice));}
 
         // Shipping Bin
     }
