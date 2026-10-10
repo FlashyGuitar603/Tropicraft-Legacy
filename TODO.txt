@@ -3,11 +3,15 @@
 - Bamboo fishing rods don't work at all???
 - Easter Island Head structures are supposed to spawn in the overworld too???
 - Jumping while having the fire boots equipped above lava will kick you to the bottom of the pool?
+- Mahogany leaves drop fewer saplings then even jungle trees, making then not renewable
 - Monkeys do not get nausea from drinking piña coladas?
 - Most biomes do not seem to get registered properly if at all?
 
 ## FIX ##
 
+- Tropics water buckets can be used as empty buckets in a thermal fluid transposer???
+- Tropical fertilizer doesn't work in a dispenser
+- Fix Tiki Torches not breaking after the fence they were placed on is broken
 - The spawn coconut logic inside BlockTropicraftLog.java is able to both detect palm leaf blocks one block above a palm log even if there's an air gap between the two and even replace blocks on the sides of the logs with coconuts
 - Fix bamboo fishing rods stacking if bought from koa Fisherman
 - Fix Koa children growing up into villagers
@@ -43,7 +47,6 @@
 - Fix Easter Island Heads not going back to sleep properly after being awakened by the player or getting angry from players walking nearby
 - Fix fence gates using the wrong soundtypes
 - Fix flippers not doing anything when config "enableSwimAnimation" is set to false or when Aqua Acrobatics is present
-- Fix Home Trees not rendering properly on the client side when first generated (somehow still an issue as of TC 9 for 1.21.8)
 - Fix miss matched block blast resistance for Chunk Slab and all fences
 - Fix right clicking on a mob in creative mode not giving you their spawn egg
 - Fix seaweed being able to spawn above the surface of the water
@@ -85,6 +88,7 @@
 
 ## TODO ##
 
+- Tropi creepers exploding on any blocks other then grass and dirt should trop a bunch of tropical flower items instead of nothing
 - Fix using vanilla water buckets on portal water giving the player vanilla water buckets...?????
 - Add a config option to reduce or increase gen rates for overworld pineapples
 - Add crafttwweaker support for the Drink Mixer
