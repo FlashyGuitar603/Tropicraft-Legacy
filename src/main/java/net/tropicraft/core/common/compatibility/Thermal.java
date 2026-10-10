@@ -15,6 +15,7 @@ import net.tropicraft.core.registry.TCFluidRegistry;
 
 import java.lang.reflect.Method;
 
+import static cofh.thermalexpansion.util.managers.machine.TransposerManager.addContainerOverride;
 import static net.minecraft.init.Items.*;
 import static net.tropicraft.core.registry.BlockRegistry.*;
 import static net.tropicraft.core.registry.ItemRegistry.*;
@@ -116,8 +117,7 @@ public class Thermal {
         // Fluid Transposer
 
         TransposerManager.addFillRecipe(4000, new ItemStack(BUCKET), new ItemStack(tropicsWaterBucket), new FluidStack(TCFluidRegistry.tropicsWater, 1000), false);
-
-        TransposerManager.addExtractRecipe(400, new ItemStack(tropicsWaterBucket), new ItemStack(BUCKET), new FluidStack(TCFluidRegistry.tropicsWater, 1000), 0, false);
+        TransposerManager.addExtractRecipe(400, new ItemStack(tropicsWaterBucket), new ItemStack(BUCKET), new FluidStack(TCFluidRegistry.tropicsWater, 1000), 100, false);
 
     }
 
