@@ -66,11 +66,14 @@ public class TCWorldGenerator implements IWorldGenerator {
                 }
 
                 // This doesn't work.
+                // Troubleshoting: https://github.com/MrFuzzihead/Tropicraft-Legacy/pull/44
+                /*
                 if (TropicsConfigs.genOverworldEIH && random.nextInt(GenRates.EIH_CHANCE) == 0) {
                     l = random.nextInt(62) + 64;
                     BlockPos eihPos = new BlockPos(k, l, i1);
                     (new WorldGenEIH(world, random)).generate(world, random, eihPos);
                 }
+                */
 
                 //*********** HERE TO BOTTOM ARE THINGS NECESSARY TO GET TO THE TROPICS ***********//
 
