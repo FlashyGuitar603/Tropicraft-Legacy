@@ -61,6 +61,7 @@ public class TropicsConfigs {
     public static int tropicsLakeID = 67;
     public static int islandMountainsID = 68;
     public static int rainforestThicknessAmount = 2;
+    public static int clayTropicsRarity = 75;
 
     public static int tropicsDimensionID = -127;
 
