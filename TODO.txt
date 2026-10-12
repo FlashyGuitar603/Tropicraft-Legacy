@@ -5,119 +5,114 @@
 - Jumping while having the fire boots equipped above lava will kick you to the bottom of the pool?
 - Mahogany leaves drop fewer saplings then even jungle trees, making then not renewable
 - Monkeys do not get nausea from drinking piña coladas?
-- Most biomes do not seem to get registered properly if at all?
 
 ## FIX ##
 
-- Tropics water buckets can be used as empty buckets in a thermal fluid transposer???
-- Tropical fertilizer doesn't work in a dispenser
-- Fix Tiki Torches not breaking after the fence they were placed on is broken
-- The spawn coconut logic inside BlockTropicraftLog.java is able to both detect palm leaf blocks one block above a palm log even if there's an air gap between the two and even replace blocks on the sides of the logs with coconuts
+- Add signs and pressure plates
+- Caught in the rain advancement is triggered by drinking anything but a piña colada???
+- Encyclopedia entries for tropical drinks all list piña colada recipes
+- Fix "Drifting into the tropics" loading screen being broken when FermiumASM is present
 - Fix bamboo fishing rods stacking if bought from koa Fisherman
-- Fix Koa children growing up into villagers
+- Fix Bamboo Flower Pots: - Not dropping the flower they contain (present as early as TC 7.0 for 1.10.2 and somehow even more broken in 1.7); - Trying to put a pineapple or iris flower in a bamboo flower pot will cause the item to be consumed but not displayed in the pot itself (present as early as TC 7.0 for 1.10.2, most likely this relied on a bug from 1.7 that let flowerpots display any item or block inside of them that got fixed in 1.8)
+- Fix bamboo, shaka, manganese, kelp and coral worldgen features spawning so square
+- Fix buried treasures not spawning (in 1.7 they were marked by patches of purified sand)
+- Fix cascading worldgen lag while in the tropics
+- Fix chunk o head blocks not covering the inside of volcano's all the way to bedrock
+- Fix crash caused by incompatibility with buildcraft's biome systems, see "BiomeInitializer" and "BiomeProviderTropicraft" from BC and TC respectively, Buildcraft sees a biome named tc_tropics and throws an error
+- Fix Easter Island Heads not going back to sleep properly after being awakened by the player or getting angry from players walking nearby
+- Fix fence gates using the wrong soundtypes
+- Fix flippers not doing anything when config "enableSwimAnimation" is set to false or when Aqua Acrobatics is present
+- Fix incompatibility with Roughly Enough IDs
+- Fix incompatibility with Traverse
 - Fix Koa Fisherman AI breaking when given bamboo fishing rods
 - Fix Koa Fisherman being able to hook other entities and breaking their AI
 - Fix Koa Fisherman not being able to place fishing loot in the first half of double bamboo chests
 - Fix Koa Hunter AI not being able to shoot darts with the dart gun
-- Using Waila to look at Koa says they have villager professions??? (which was allegedly fixed back in 1.7???)
-
-- Fix crash caused by incompatibility with buildcraft's biome systems, see "BiomeInitializer" and "BiomeProviderTropicraft" from BC and TC respectively
-- Fix incompatibility with Roughly Enough IDs
-- Fix incompatibility with Traverse
-- Fix multimob's dummy mob spawning all over the place in the tropics
-- Fix the forestry grafter dropping palm saplings when breaking any tropicraft leaves
-
-- Fix chunk o head blocks not covering the inside of volcano's all the way to bedrock
-- Fix massive lag spike upon trying to cover up a volcano
-- Fix volcano's not being able to erupt (was removed in 1.7 because it was too distributive for the love tropics events)
-
 - Fix lighting on thatch roofing
-- Fix water logged tropicraft fences making a gap in the water model
-
-- Add signs and pressure plates
-- Caught in the rain advancement is triggered by drinking anything but a piña colada???
-- Fix "Drifting into the tropics" loading screen being broken when Fermium is present
-- Fix bamboo, shaka, manganese, kelp and coral worldgen features spawning so square
-- Fix buried treasures not spawning (in 1.7 they were marked by patches of purified sand)
-- Fix cascading worldgen lag while in the tropics
-- Fix tropics hostile mobs still tracking down players even in peaceful/creative
-- Fix Bamboo Flower Pots: - Not dropping the flower they contain (present as early as TC 7.0 for 1.10.2 and somehow even more broken in 1.7)
-                          - Trying to put a pineapple or iris flower in a bamboo flower pot will cause the item to be consumed but not displayed in the pot itself (present as early as TC 7.0 for 1.10.2, most likely this relied on a bug from 1.7 that let flowerpots display any item or block inside of them that got fixed in 1.8)
-- Encyclopedia entries for tropical drinks all list pina colada recipes
-- Fix Easter Island Heads not going back to sleep properly after being awakened by the player or getting angry from players walking nearby
-- Fix fence gates using the wrong soundtypes
-- Fix flippers not doing anything when config "enableSwimAnimation" is set to false or when Aqua Acrobatics is present
+- Fix massive lag spike upon trying to cover up a volcano
 - Fix miss matched block blast resistance for Chunk Slab and all fences
+- Fix multimob's dummy mob spawning all over the place in the tropics
 - Fix right clicking on a mob in creative mode not giving you their spawn egg
 - Fix seaweed being able to spawn above the surface of the water
-- Fix the bamboo crafting table being unable to use the "Move Items" option with JEI/HEI
+- Fix the bamboo crafting table not being unable to use the "Move Items" option with JEI/HEI
+- Fix the forestry grafter dropping palm saplings when breaking any tropicraft leaves
+- Fix Tiki Torches not breaking after the fence they were placed on is broken
+- Fix tropics hostile mobs still tracking down players even in peaceful/creative
+- Fix volcano's not being able to erupt due to gutted volcano block logic (was removed in 1.7 because it was too distributive for the love tropics events)
+- Fix water logged tropicraft fences making a gap in the water model
 - Fix Z axis infighting on items like the love tropics shells and cocktails
 - Shipwrecks spawn lots of air pockets when replacing blocks
 - The bottom of Home Trees almost exclusively spawns buried making the spawners at the bottom never get any use
+- The spawn coconut logic inside BlockTropicraftLog.java is able to both detect palm leaf blocks one block above a palm log even if there's an air gap between the two and even replace blocks on the sides of the logs with coconuts
+- Tropical fertilizer doesn't work in a dispenser
+- Tropics water buckets can be used as empty buckets in a thermal fluid transposer???
+- Using Waila to look at Koa says they have villager professions??? (which was allegedly fixed back in 1.7???)
 
 ## MAYBE ##
 
-- Make pineapple cake only stack to 1?
 - Add "Assorted Nuts"...?
-- Add a built-in resource pack to undo all texture changes
 - Add a Tropics worldtype
 - Add bamboo-glass boat?
-- Add clay to the tropics?
+- Add some sort of modded recipe to turn azurite into copper?
 - Add somehow cocoa beans to the tropics?
-- Add tinkers construct compatibility, also figure out what that'd mean?
 - Add Unlimited Chiselworks compat
-- Add watefalls that lead into rivers?
 - Bring back Ashen Mask blur overlay?
 - Bring back coral sands spawning on beaches OR modify coral sands encyclopedia description
 - Bring back growable Iris flowers similar to pineapples?
-- Bring back placeable cocktails?
 - Bring back the old magic mushroom encyclopedia description?: "Found only in rainforests, these mushrooms are rumored to have contributed to Nigel Winthrope's disappearance."
 - Change Koa Fisherman being able to fish tropical fishes while in other dimensions?
 - Disable collision and make Bamboo Shoots break instantly like in TC 1.5.2?
 - Finish reimplementing unused enchants from 1.4-1.6?
 - Fix Donation Block no longer working?
 - Generate podzol in surface caves?
-- Implement alternative fishing rods with their bait items as fuel?
 - Implement Lava Slinger? https://tropicraft.fandom.com/wiki/Lava_slinger
 - Implement Souzium Aqua Ore or some other way to craft the tools?
 - Make koa trades unlock like villager trades?
 - Make the tiki torch look more like a tiki torch?
 - Rebalance tool stats?
-- Replace Tropical Water bucket with a forge bucket/make it act like a forge bucket?
 - What is Chunk Hammer and Chunk Wedge from TC 3.0.0?
+--- Add tinkers construct compatibility, also figure out what that'd mean?
 
 ## TODO ##
 
-- Tropi creepers exploding on any blocks other then grass and dirt should trop a bunch of tropical flower items instead of nothing
-- Fix using vanilla water buckets on portal water giving the player vanilla water buckets...?????
-- Add a config option to reduce or increase gen rates for overworld pineapples
+- Add a config option to increase or decrease gen rates for overworld pineapples
+- Add compatibility with Future MC's stone cutter and flower types
 - Add crafttwweaker support for the Drink Mixer
 - Add custom damage source for darts
 - Add JEI support for the Drink Mixer
 - Add JER support for tropical mobs
 - Add Journey Map mob icon support https://teamjm.github.io/journeymap-docs/5.9.x/tools/custom-mob-icons/
-- Compatibility with Future MC's stone cutter and flower types
+- Add liquid dripping particles for tropics water and portal
+- Bring back placeable cocktails
+- Bring rain to the tropics, reference https://github.com/MrFuzzihead/Tropicraft-Legacy/pull/46
+- Completely overhaul tropics world generation
+- Detach the tropics' time from the overworld, reference https://github.com/MrFuzzihead/Tropicraft-Legacy/pull/46
 - Fill in all placeholder Encyclopedia entries
 - Find out why custom EIH eye blocks aren't working (- The blocks Easter Island Heads can spawn with as eyes are now controlled by a config (ACGaming))
 - Finish implementing the diving computer
 - Fix Iris Flowers and bamboo crafting table not being part of their respective ore dictionaries
+- Fix using vanilla water buckets on portal water giving the player vanilla water buckets...?????
+- Give the Sifter proper recipes with inputs and outputs
+- Implement alternative fishing rods with their bait items as fuel
 - Implement Fire Wand (most likely removed due to its dependence on CoroUtil)
 - Implement Ice Wand (most likely removed due to its dependence on CoroUtil)
 - Implement Leaf Ball (most likely removed due to its dependence on CoroUtil)
 - Implement Tame Wand (most likely removed due to its dependence on CoroUtil)
-- Make adult turtles drop turtle shells (- Fixed adult turtles not dropping turtle shells)
 - Make bamboo sticks usable as furnace fuel
 - Make fire armor craftable by throwing scale armor in lava
 - Make Iron Golems Ignore Tropi Creepers and Easter Island Heads
-- Make the darts paralyze entities and lower the player's field of view
+- Make only adult turtles drop turtle shells (- Fixed adult turtles not dropping turtle shells)
+- Make pineapple cake only stack to 1?
 - Make trapdoors work as furnace fuels
-- Make tropical water buckets vaporize in the nether OR replace them with forge
-- Pina coladas aren't treated as food by other mods
+- Make tropical water buckets vaporize in the nether OR replace them with forge buckets
+- piña coladas aren't treated as food by other mods
 - Place the Fire Pit at the center of koa villages, also redo it's smoke particles using CoroUtil's extended renderer
 - Reimplement Forrest Altar Ruins, see WorldGenForrestAltarRuin.java, most likely removed due to procedural structures never being reimplemented
+- Replace Tropical Water bucket with a forge bucket/make it act like a forge bucket
 - Revisit all entity related code to the Easter Island Heads
 - The encyclopedia's entity page type is missing a "discover" function thus piggybacking off the item page's implementation of said function making them impossible to unlock without cheats
-- Unify the 4 pina coladas into a single item
+- Tropi creepers exploding on any blocks other then grass and dirt should drop a bunch of tropical flower items instead of nothing
+- Unify the 4 piña coladas into a single item
 - Update bamboo flower pot item texture to better match the vanilla flower pot
 - Update languages: french, russian, chinese, etc.
 - Update sapling_palm.png, make it actually look like a palm tree
@@ -132,3 +127,5 @@
 
 - Implement Ashen being able to use the new dart gun
 - Implement darts with potion effects
+
+- Make the darts paralyze entities and lower the player's field of view

@@ -75,6 +75,7 @@ dependencies {
     compileOnly "curse.maven:ex-nihilo-creatio-274456:2817545"
     compileOnly "curse.maven:coroutil-237749:2902920"
     compileOnly "curse.maven:future-mc-310059:6162819"
+    compileOnly "curse.maven:tinkers-antique-1242239:8666425"
 }
 
 processResources

@@ -1,13 +1,14 @@
 7.1.9.129 for 1.12.2
 New
-- Added forge fluid buckets for tropics water and tropics portal water for the sake of mod compatibility, for the time being the regular tropics water bucket will be left untouched
+- Added forge fluid buckets for tropics water and tropics portal water for the sake of mod compatibility, for the time being the regular tropics water bucket will be left untouched (_BIG_G_)
+- Clay can now spawn rarely on the sides of tropical rivers but more commonly in rivers between rainforests (_BIG_G_)
 
 Changes
-- Pineapple plants no longer drop anything if broken in creative mode
+- Pineapple plants no longer drop anything if broken in creative mode (_BIG_G_)
 
 Fixes
 - Fixed Home Trees often spawning invisible branches and canopies by not telling the client about block updates in already generated chunks (MrFuzzihead)
-- Fixed emptying tropics water buckets in a thermal fluid transposer having a 0% chance to return the bucket
+- Fixed emptying tropics water buckets in a thermal fluid transposer having a 0% chance to return the bucket (_BIG_G_)
 
 7.1.9.128 for 1.12.2
 New
