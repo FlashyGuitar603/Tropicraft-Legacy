@@ -11,7 +11,7 @@ public class CompatRegistry {
     @SubscribeEvent
     public static void preInit() {
 
-        // IF the mod in question is present AND IF its respective module is enabled in the configs then also enable its compatibility module.
+        // IF the mod in question is present AND IF its respective module is enabled in the configs then enable its compatibility module.
 
         if (Loader.isModLoaded("forestry") && enableForestryModule) Forestry.preInit();
         if (Loader.isModLoaded("thermalexpansion") && enableThermalModule) Thermal.preInit();
@@ -21,6 +21,7 @@ public class CompatRegistry {
         if (Loader.isModLoaded("immersiveengineering") && enableImmersiveEngineeringModule) ImmersiveEngineering.preInit();
         if (Loader.isModLoaded("exnihilocreatio") && enableExNihiloCreatioModule) ExNihiloCreatio.preInit();
         //if (Loader.isModLoaded("futuremc") && enableFutureMCModule) FutureMC.preInit();
+        if (Loader.isModLoaded("tconstruct") && enableTinkersConstructModule) TinkersConstruct.preInit();
 
         //if (Loader.isModLoaded("") && ) .preInit();
     }
@@ -34,6 +35,7 @@ public class CompatRegistry {
         if (Loader.isModLoaded("immersiveengineering") && enableImmersiveEngineeringModule)  ImmersiveEngineering.init();
         if (Loader.isModLoaded("exnihilocreatio") && enableExNihiloCreatioModule) ExNihiloCreatio.init();
         //if (Loader.isModLoaded("futuremc") && enableFutureMCModule) FutureMC.preInit();
+        if (Loader.isModLoaded("tconstruct") && enableTinkersConstructModule) TinkersConstruct.init();
 
         //if (Loader.isModLoaded("") && ) .init();
     }
@@ -47,6 +49,7 @@ public class CompatRegistry {
         if (Loader.isModLoaded("immersiveengineering") && enableImmersiveEngineeringModule) ImmersiveEngineering.postInit();
         if (Loader.isModLoaded("exnihilocreatio") && enableExNihiloCreatioModule) ExNihiloCreatio.postInit();
         //if (Loader.isModLoaded("futuremc") && enableFutureMCModule) FutureMC.preInit();
+        if (Loader.isModLoaded("tconstruct") && enableTinkersConstructModule) TinkersConstruct.postInit();
 
         //if (Loader.isModLoaded("") && ) .postInit();
     }

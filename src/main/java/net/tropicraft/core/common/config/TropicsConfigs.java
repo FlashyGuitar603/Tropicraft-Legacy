@@ -99,7 +99,8 @@ public class TropicsConfigs {
     public static boolean enableImmersiveEngineeringModule = true;
     public static boolean enableExNihiloCreatioModule = true;
     //public static boolean enableFutureMCModule = true;
-    public static boolean enableCookingForBlockheadsModule = true;
+    //public static boolean enableCookingForBlockheadsModule = true;
+    public static boolean enableTinkersConstructModule = true;
 
     /*
     public static String[] reptilesList = new String[] {
@@ -166,7 +167,8 @@ public class TropicsConfigs {
         enableImmersiveEngineeringModule = config.get(C_MODULES, "enableImmersiveEngineeringModule", enableImmersiveEngineeringModule, "Enable or disable the Immersive Engineering compatibility module. [default: true]").getBoolean();
         enableExNihiloCreatioModule = config.get(C_MODULES, "enableExNihiloCreatioModule", enableExNihiloCreatioModule, "Enable or disable the Ex Nihilo Creatio compatibility module. [default: true]").getBoolean();
         //enableFutureMCModule = config.get(C_MODULES, "enableFutureMCModule", enableFutureMCModule, "Enable or disable the Future MC compatibility module. [default: true]").getBoolean();
-        enableCookingForBlockheadsModule = config.get(C_MODULES, "enableCookingForBlockheadsModule", "Enable or disable the Cooking For Blockheads compatibility module. [default: true]").getBoolean();
+        //enableCookingForBlockheadsModule = config.get(C_MODULES, "enableCookingForBlockheadsModule", "Enable or disable the Cooking For Blockheads compatibility module. [default: true]").getBoolean();
+        enableTinkersConstructModule = config.get(C_MODULES, "enableTinkersConstructModule", "Enable or disable the Tinker's Construct compatibility module. [default: true]").getBoolean();
 
         config.setCategoryComment(C_DONATIONS, "Used for the LoveTropics charity drive.");
         tiltifyAppToken = config.get(C_DONATIONS, "tiltifyAppToken", tiltifyAppToken, "Add a token here to enable donation tracking, leave blank to disable").getString();
