@@ -47,9 +47,7 @@ public class CommonProxy {
 
 	}
 	
-	public void registerClientPacketBeachFloat() {
-		
-	}
+	//public void registerClientPacketBeachFloat() {}
 
 	public boolean helloIsItMeYoureLookingFor(EntityPlayer player) {
 		return true;

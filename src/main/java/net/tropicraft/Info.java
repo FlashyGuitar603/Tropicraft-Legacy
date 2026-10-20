@@ -11,19 +11,19 @@ public class Info {
 	public static final String NAME = "Tropicraft";
 	
 	/** Where to locate icons */
-	public static final String ICON_LOCATION = MODID + ":";
+	//public static final String ICON_LOCATION = MODID + ":";
 	
 	/** Where to locate tool icons */
-	public static final String TOOL_ICON_LOCATION = ICON_LOCATION + "tools/";
+	//public static final String TOOL_ICON_LOCATION = ICON_LOCATION + "tools/";
 	
 	/** Where to locate armor textures */
 	public static final String ARMOR_LOCATION = MODID + ":textures/models/armor/";
 	
 	/** Where to locate gui textures */
-	public static final String TEXTURE_GUI_LOC = "/assets/" + MODID + "/gui/";
+	//public static final String TEXTURE_GUI_LOC = "/assets/" + MODID + "/gui/";
 	
 	/** Folder to find records in */
-	public static final String RECORDS_LOCATION = ICON_LOCATION + "sounds/records/";
+	//public static final String RECORDS_LOCATION = ICON_LOCATION + "sounds/records/";
 
 	/** Client proxy location */
 	public static final String CLIENT_PROXY = "net.tropicraft.core.proxy.ClientProxy";
