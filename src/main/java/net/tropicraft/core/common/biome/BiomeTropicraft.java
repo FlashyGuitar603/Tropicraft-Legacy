@@ -23,7 +23,7 @@ public class BiomeTropicraft extends Biome {
 
 	//public static final int[] DEFAULT_FLOWER_META = new int[] { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 };
 
-	public static BiomeTropicraft tropicsOcean = (BiomeTropicraft) new BiomeTropicsOcean((new Biome.BiomeProperties("TROPICS_OCEAN")).setBaseHeight(-1.0F).setHeightVariation(0.4F).setTemperature(1.5F).setRainfall(1.25F)) {
+	public static BiomeTropicraft tropicsOcean = (BiomeTropicraft) new BiomeTropicsOcean((new Biome.BiomeProperties("Tropics Ocean")).setBaseHeight(-1.0F).setHeightVariation(0.4F).setTemperature(1.5F).setRainfall(1.25F)) {
 	    
 	    private IBlockState mineralSand = BlockRegistry.sands.getDefaultState().withProperty(BlockTropicraftSands.VARIANT, TropicraftSands.MINERAL);
 
@@ -36,15 +36,15 @@ public class BiomeTropicraft extends Biome {
 	        return ret;
 	    }
 	}.setRegistryName("tc_tropics_ocean");
-	public static Biome kelpForest = new BiomeKelpForest((new Biome.BiomeProperties("KELP_FOREST")).setBaseHeight(-1.5F).setHeightVariation(0.3F).setTemperature(2.0F).setRainfall(1.25F)).setRegistryName("tc_tropics_kelp_forest");
-	public static Biome tropics = new BiomeTropics((new Biome.BiomeProperties("TROPICS")).setBaseHeight(0.15F).setHeightVariation(0.15F).setTemperature(2.0F).setRainfall(1.5F)).setRegistryName("tc_tropics");
-	public static Biome rainforestPlains = new BiomeRainforest((new Biome.BiomeProperties("TROPICS_RAINFOREST_PLAINS")).setBaseHeight(0.25F).setHeightVariation(0.1F).setTemperature(1.5F).setRainfall(2.0F)).setRegistryName("tc_tropics_rainforest_plains");
-	public static Biome rainforestHills = new BiomeRainforest((new Biome.BiomeProperties("TROPICS_RAINFOREST_HILLS")).setBaseHeight(0.45F).setHeightVariation(0.425F).setTemperature(1.5F).setRainfall(2.0F)).setRegistryName("tc_tropics_rainforest_hills");
-	public static Biome rainforestMountains = new BiomeRainforest((new Biome.BiomeProperties("TROPICS_RAINFOREST_MOUNTAINS")).setBaseHeight(1.0F).setHeightVariation(1.2F).setTemperature(1.5F).setRainfall(2.0F)).setRegistryName("tc_tropics_rainforest_mountains");
-	public static Biome islandMountains = new BiomeRainforest((new Biome.BiomeProperties("TROPICS_RAINFOREST_ISLAND_MOUNTAINS")).setBaseHeight(0.1F).setHeightVariation(2.5F).setTemperature(1.5F).setRainfall(2.0F)).setRegistryName("tc_tropics_rainforest_island_mountains");
-	public static Biome tropicsRiver = new BiomeTropicsRiver((new Biome.BiomeProperties("TROPICS_RIVER")).setBaseHeight(-0.7F).setHeightVariation(0.05F).setTemperature(1.5F).setRainfall(1.25F)).setRegistryName("tc_tropics_river");
-	public static Biome tropicsBeach = new BiomeTropicsBeach((new Biome.BiomeProperties("TROPICS_BEACH")).setBaseHeight(-0.1F).setHeightVariation(0.1F).setTemperature(1.5F).setRainfall(1.25F)).setRegistryName("tc_tropics_beach");
-	public static Biome tropicsLake = new BiomeTropicsOcean((new Biome.BiomeProperties("TROPICS_LAKE")).setBaseHeight(-0.6F).setHeightVariation(0.1F).setTemperature(1.5F).setRainfall(1.5F)).setRegistryName("tc_tropics_lake");
+	public static Biome kelpForest = new BiomeKelpForest((new Biome.BiomeProperties("Kelp Forrest")).setBaseHeight(-1.5F).setHeightVariation(0.3F).setTemperature(2.0F).setRainfall(1.25F)).setRegistryName("tc_tropics_kelp_forest");
+	public static Biome tropics = new BiomeTropics((new Biome.BiomeProperties("Tropics")).setBaseHeight(0.15F).setHeightVariation(0.15F).setTemperature(2.0F).setRainfall(1.5F)).setRegistryName("tc_tropics");
+	public static Biome rainforestPlains = new BiomeRainforest((new Biome.BiomeProperties("Tropics Rainforest Plains")).setBaseHeight(0.25F).setHeightVariation(0.1F).setTemperature(1.5F).setRainfall(2.0F)).setRegistryName("tc_tropics_rainforest_plains");
+	public static Biome rainforestHills = new BiomeRainforest((new Biome.BiomeProperties("Tropics Rainforest Hills")).setBaseHeight(0.45F).setHeightVariation(0.425F).setTemperature(1.5F).setRainfall(2.0F)).setRegistryName("tc_tropics_rainforest_hills");
+	public static Biome rainforestMountains = new BiomeRainforest((new Biome.BiomeProperties("Tropics Rainforest Mountains")).setBaseHeight(1.0F).setHeightVariation(1.2F).setTemperature(1.5F).setRainfall(2.0F)).setRegistryName("tc_tropics_rainforest_mountains");
+	public static Biome islandMountains = new BiomeRainforest((new Biome.BiomeProperties("Tropics Rainforest Island Mountains")).setBaseHeight(0.1F).setHeightVariation(2.5F).setTemperature(1.5F).setRainfall(2.0F)).setRegistryName("tc_tropics_rainforest_island_mountains");
+	public static Biome tropicsRiver = new BiomeTropicsRiver((new Biome.BiomeProperties("Tropics River")).setBaseHeight(-0.7F).setHeightVariation(0.05F).setTemperature(1.5F).setRainfall(1.25F)).setRegistryName("tc_tropics_river");
+	public static Biome tropicsBeach = new BiomeTropicsBeach((new Biome.BiomeProperties("Tropics Beach")).setBaseHeight(-0.1F).setHeightVariation(0.1F).setTemperature(1.5F).setRainfall(1.25F)).setRegistryName("tc_tropics_beach");
+	public static Biome tropicsLake = new BiomeTropicsOcean((new Biome.BiomeProperties("Tropics Lake")).setBaseHeight(-0.6F).setHeightVariation(0.1F).setTemperature(1.5F).setRainfall(1.5F)).setRegistryName("tc_tropics_lake");
 
 	public static boolean DISABLEDECORATION = false;
 
