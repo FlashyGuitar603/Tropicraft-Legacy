@@ -1,3 +1,16 @@
+# Biomes
+
+tropicraft.biome.tropics_ocean.name=Tropics Ocean
+tropicraft.biome.tc_tropics_kelp_forest.name=Kelp Forrest
+tropicraft.biome.tc_tropics.name=Tropics
+tropicraft.biome.tc_tropics_rainforest_plains.name=Tropics Rainforest Plains
+tropicraft.biome.tc_tropics_rainforest_hills.name=Tropics Rainforest Hills
+tropicraft.biome.tc_tropics_rainforest_mountains.name=Tropics Rainforest Mountains
+tropicraft.biome.tc_tropics_rainforest_island_mountains.name=Tropics Rainforest Island Mountains
+tropicraft.biome.tc_tropics_river.name=Tropics River
+tropicraft.biome.tc_tropics_beach.name=Tropics Beach
+tropicraft.biome.tc_tropics_lake.name=Tropics Lake
+
 # BLOCS
 tile.tropicraft.chunk.name=Tronçon
 tile.tropicraft.chunk_stairs.name=Escaliers en tronçon
