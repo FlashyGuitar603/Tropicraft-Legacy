@@ -14,6 +14,13 @@ tropicraft.biome.tc_tropics_beach.name=Tropics Beach
 tropicraft.biome.tc_tropics_lake.name=Tropics Lake
 
 # Block localizations
+
+tile.tropicraft.bamboo_crafting_table.name=Bamboo Crafting Table
+tile.tropicraft.donation.tooltip1=Currently out of order :(
+tile.tropicraft.fire_pit.name=Fire Pit
+tile.tropicraft.pineapple_cake.name=Pineapple Cake
+tile.tropicraft.zirconium_block.name=Zirconium Block
+
 tile.tropicraft.chunk.name=凝灰岩
 tile.tropicraft.chunk_stairs.name=凝灰岩楼梯
 tile.tropicraft.ore.eudialyte.name=异性石矿石
@@ -112,6 +119,27 @@ tile.tropicraft.donation.name=捐助提示生成器
 tile.tropicraft.donation.tooltip=收到捐助后会生成烟花！
 
 # Item localizations
+
+item.tropicraft.axe_souzium.name=Souzium Aqua Axe
+item.tropicraft.axe_zirconium.name=Zirconium Axe
+item.tropicraft.bamboo_trapdoor.name=Bamboo Trapdoor
+item.tropicraft.dart.name=Dart
+item.tropicraft.dart_gun.name=Dart Gun
+item.tropicraft.hoe_souzium.name=Souzium Aqua Hoe
+item.tropicraft.hoe_zirconium.name=Zirconium Hoe
+item.tropicraft.mahogany_door.name=Mahogany Door
+item.tropicraft.mahogany_trapdoor.name=Mahogany Trapdoor
+item.tropicraft.palm_door.name=Palm Door
+item.tropicraft.palm_trapdoor.name=Palm Trapdoor
+item.tropicraft.pickaxe_souzium.name=Souzium Aqua Pickaxe
+item.tropicraft.pickaxe_zirconium.name=Zirconium Pickaxe
+item.tropicraft.shovel_souzium.name=Souzium Aqua Shovel
+item.tropicraft.shovel_zirconium.name=Zirconium Shovel
+item.tropicraft.sword_zirconium.name=Zirconium Spear
+item.tropicraft.thatch_door.name=Thatch Door
+item.tropicraft.thatch_trapdoor.name=Thatch Trapdoor
+item.tropicraft.zirconium.name=Zirconium Crystal
+
 item.tropicraft.eudialyte.name=异性石碎片
 item.tropicraft.zircon.name=锆石晶体
 item.tropicraft.azurite.name=石青晶体
@@ -259,7 +287,6 @@ item.tropicraft.coffee.bean.raw.name=咖啡豆
 item.tropicraft.coffee.bean.roasted.name=烤咖啡豆
 item.tropicraft.coffee.berry.name=干咖啡豆
 
-
 item.tropicraft.pink_weight_belt.name=粉色加重腰带
 item.tropicraft.yellow_weight_belt.name=黄色加重腰带
 item.tropicraft.pink_pony_bottle.name=粉色小马瓶
@@ -283,7 +310,9 @@ item.tropicraft.nori_raw.name=生海苔
 item.tropicraft.nori_toasted.name=烤海苔
 item.tropicraft.ray_raw.name=生斑点鹰魟
 item.tropicraft.ray_cooked.name=熟斑点鹰魟
+
 # Feesh
+
 item.tropicraft.tropicalfish.0.raw.name=生小丑鱼
 item.tropicraft.tropicalfish.1.raw.name=生女王天使鱼
 item.tropicraft.tropicalfish.2.raw.name=生黄高鳍刺尾鱼
@@ -308,10 +337,12 @@ item.tropicraft.riverfish.piranha.cooked.name=熟水虎鱼
 item.tropicraft.riverfish.sardine.cooked.name=熟沙丁鱼
 
 # Word localizations
+
 tropicraft.raw=生的
 tropicraft.cooked=熟的
 
 # Cocktail localizations
+
 tropicraft.drink.lemonade.name=柠檬汁
 tropicraft.drink.limeade.name=酸橙汁
 tropicraft.drink.orangeade.name=橙汁
@@ -321,7 +352,10 @@ tropicraft.drink.pina_colada.name=椰林飘香
 tropicraft.drink.black_coffee.name=黑咖啡
 tropicraft.drink.mai_tai.name=迈泰
 
+tropicraft.drink.hot_cocoa.name=Hot Cocoa
+
 # Record localizations
+
 item.tropicraft.buried_treasure.name=埋没的宝藏
 item.tropicraft.eastern_isles.name=东部群岛
 item.tropicraft.low_tide.name=低潮
@@ -330,6 +364,7 @@ item.tropicraft.the_tribe.name=部落
 item.tropicraft.trade_winds.name=信风
 
 # Mask localizations
+
 item.tropicraft.mask_square_zord.name=方格面具
 item.tropicraft.mask_horn_monkey.name=猴面具
 item.tropicraft.mask_oblongatron.name=Oblongatron 面具
@@ -345,15 +380,33 @@ item.tropicraft.mask_ashen_mask4.name=灰白面具
 item.tropicraft.mask_ashen_mask5.name=灰白面具
 
 # Menu localizations
+
 itemGroup.tropicraft=热带世界
 
 # Config localizations
+
 tropicraft.config.title=热带世界配置
 tropicraft.config.generation.title=世界生成设置
 tropicraft.config.misc.title=杂项设置
 tropicraft.config.entity.title=实体设置
 
+tropicraft.config.modules.title=Compatibility Modules
+tropicraft.config.~lovetropics.title=Donation Settings
+
 # Entity localizations
+
+entity.tropicraft.failgull.name=Failgull
+entity.tropicraft.fish.name=Tropical Fish
+entity.tropicraft.lavaball.name=Lava Ball
+entity.tropicraft.lost_mask.name=Lost Mask
+entity.tropicraft.mow.name=Man O' War
+entity.tropicraft.poison_bolt.name=Poison Bolt
+entity.tropicraft.sea_turtle_egg.name=Sea Turtle Egg
+entity.tropicraft.seaurchinegg.name=Sea Urchin Egg
+entity.tropicraft.starfishegg.name=Starfish Egg
+entity.tropicraft.treefrog.name=Tree Frog
+entity.tropicraft.tropispideregg.name=Tropical Spider Egg
+
 entity.tropicraft.iguana.name=鬣蜥
 entity.tropicraft.tropiskelly.name=热带骷髅
 entity.tropicraft.eih.name=复活节岛石像
@@ -390,12 +443,19 @@ entity.tropicraft.beach_umbrella.name=沙滩伞
 entity.tropicraft.beach_float.name=沙滩浮排
 
 # Achievement localizations
+
 achievement.tc_craft_pina_colada=如果你喜欢椰林飘香...
 achievement.tc_craft_pina_colada.desc=（谁不是呢？）
 achievement.tc_drink_pina_colada=陷入雨境
 achievement.tc_drink_pina_colada.desc=（或许你需要一把雨伞？）
 
+achievement.tc=Tropicraft Legacy
+achievement.tc.desc=Welcome to paradise!
+achievement.tc_craft_scale_armor.name=Captain Cactus over here!
+achievement.tc_craft_scale_armor.desc=There I say splendid!
+
 #Gui localizations
+
 tropicraft.gui.air.type=空气类型：%s
 tropicraft.gui.air.regular=普通
 tropicraft.gui.air.trimix=混合气
@@ -407,25 +467,27 @@ tropicraft.gui.suit.yellow=黄色
 tropicraft.gui.suit.pink=粉色
 tropicraft.gui.gear.tank.right.info=右储罐
 tropicraft.gui.gear.tank.left.none=缺少左储罐
-tropicraft.gui.gear.tank.tank.click=按住 Shift 右击装填储罐！
+tropicraft.gui.gear.tank.click=按住 Shift 右击装填储罐！
 tropicraft.gui.gear.tank.right.none=缺少右储罐
 tropicraft.gui.gear.tank.left.info=左储罐
 gui.tropicraft.temperature=温度
 gui.tropicraft.currentDepth=深度
 gui.tropicraft.maxDepth=最大
 gui.tropicraft.timeRemaining=精炼时间
-gui.tropicraft.amtRefined=进度
 
 # Fluid localizations
+
 fluid.tropicraft.water=热带水
 fluid.tropicraft.portal=热带世界传送门
 
 # Misc localizations
+
 tropicraft.coconutBombWarning=你没有使用椰子炸弹的权限，请检查配置文件中的椰子炸弹白名单确保其开启！
 portalenchanter.type_0=模式：构建传送
 portalenchanter.type_1=模式：立即传送
 
 # Koa Trading
+
 entity.tropicraft.koa.trade.give=有一些混合气体！
 entity.tropicraft.koa.trade.not_enough_time=在没有混合气体的情况下，你没有办法在海底潜水更多时间！
 entity.tropicraft.koa.trade.cooldown=最近有人已经从我这购走了混合气体。
@@ -437,9 +499,11 @@ entity.tropicraft.koa.male.fisherman.name=男性原始人渔夫
 entity.tropicraft.koa.female.fisherman.name=女性原始人渔夫
 
 # Misc chat notifications
+
 tropicraft.chat.teleport.unable=在传送之前你应该来一杯椰林飘香！
 
 # Loading Screen
+
 tropicraft.loading.title.greeting=正在漂流到热带地区...
 tropicraft.loading.title.farewell=祝你活下去...
 
@@ -456,16 +520,28 @@ tropicraft.loading.misc.1=别忘了屏住呼吸！
 tropicraft.loading.misc.2=准备溅起一片水花
 
 # Tooltips
+
 tropicraft.tooltip.air_compressor=在空气压缩机中放置氧气瓶以填充空气！
 tropicraft.tooltip.drink_mixer=将饮料原料放置在搅拌机上，并在底部放上竹杯，然后？？？尽情享受吧！
 tropicraft.tooltip.sifter=在筛子中放置沙子会筛出什么东西呢？
 
+dart.tropicraft:prefix.name=Dart of
+dart.tropicraft:paralyze.name=Paralysis
+dart.tropicraft:poison.name=Poison
+dart.tropicraft:moveSlowdown.name=Slow Movement
+dart.tropicraft:harm.name=Harm
+dart.tropicraft:confusion.name=Confusion
+dart.tropicraft:hunger.name=Hunger
+dart.tropicraft:weakness.name=Weakness
+
 # Book text
+
 tropicraft.book.toc.title=目录表
 tropicraft.book.bookmarks.title=书签
 tropicraft.book.bookmarks.tooltip=查看书签
 
 # Encyclopedia Sections
+
 tropicraft.encyclopedia.section.foods.title=热带食物
 tropicraft.encyclopedia.section.drinks.title=热带饮料
 tropicraft.encyclopedia.section.world.title=热带世界
@@ -588,7 +664,7 @@ tropicraft.encyclopedia.coral.title=珊瑚
 tropicraft.encyclopedia.coral.desc=虽然这些生物发光的生命在海洋中的家，他们是非常适合照亮一个水族馆
 
 tropicraft.encyclopedia.coralsand.title=珊瑚砂
-coralsand.dec=据说几百年前，这些珊瑚沙在龙卷风中被冲上岸。
+tropicraft.encyclopedia.coralsand.desc=据说几百年前，这些珊瑚沙在龙卷风中被冲上岸。
 
 tropicraft.encyclopedia.crocosmia.title=香鸢尾
 tropicraft.encyclopedia.crocosmia.desc=这些炽热的小花就像在地上休息的小太阳。
@@ -658,9 +734,6 @@ tropicraft.encyclopedia.froglegscooked.desc=这种稀有的美味是煮青蛙腿
 
 tropicraft.encyclopedia.frogskin.title=毒蛙皮
 tropicraft.encyclopedia.frogskin.desc=有毒的树蛙在皮肤分泌一种麻痹的毒素。通过将此与飞镖结合，你可以暂时麻痹一个敌人。
-
-tropicraft.encyclopedia.froxconch.title=Frox 海螺
-tropicraft.encyclopedia.froxconch.desc=以热带世界的主题曲“信风”命名的Solonox贝壳有机会在里面找到一颗黑色或白色的珍珠，所以要小心！
 
 tropicraft.encyclopedia.grapefruit.title=西柚
 tropicraft.encyclopedia.grapefruit.desc=美味的西柚从西柚树叶掉落。
@@ -732,7 +805,7 @@ tropicraft.encyclopedia.marlincooked.title=烤马林鱼
 tropicraft.encyclopedia.marlincooked.desc=嗯。肚子里的美味。这是你烹饪新鲜马林鱼时得到的。
 
 tropicraft.encyclopedia.mineralsand.title=矿砂
-mineralsand.dec=据说这种特殊类型的沙子含有各种矿物，目前尚不清楚它们的用途。
+tropicraft.encyclopedia.mineralsand.desc=据说这种特殊类型的沙子含有各种矿物，目前尚不清楚它们的用途。
 
 tropicraft.encyclopedia.mixer.title=EIH 混合器
 tropicraft.encyclopedia.mixer.desc=将不同种类的水果混合在一起，得到不同的鸡尾酒。你可以拥有自己的酒吧！
@@ -794,9 +867,6 @@ tropicraft.encyclopedia.purifiedsand.desc=纯砂占了热带地区的绝大部�
 tropicraft.encyclopedia.reeds.title=芦苇
 tropicraft.encyclopedia.reeds.desc=在热带地区，甘蔗有一个新的用途:盖茅草。
 
-tropicraft.encyclopedia.rubenautilus.title=Rube 鹦鹉螺
-tropicraft.encyclopedia.rubenautilus.desc=Rube 鹦鹉螺以热带世界当前模块制作者之一MrRube的名字命名，Rube 鹦鹉螺实际上是由MrRube在热带世界的v1.0版本之前制作的，但从未被使用过...直到现在！
-
 tropicraft.encyclopedia.scaleboots.title=鬣蜥鳞靴子
 tropicraft.encyclopedia.scaleboots.desc=用鬣蜥鳞制成的靴子，为穿着它们的人提供火焰抗性。
 
@@ -823,9 +893,6 @@ tropicraft.encyclopedia.sifter.desc=用任何一种沙子右击一个筛子，�
 
 #tropicraft.encyclopedia.snorkel.title=Snorkel
 #tropicraft.encyclopedia.snorkel.desc=With this you can dive deep into the crystal-clear blue waters of the tropical realm without fear of drowning! You can stay under water four times as long when wearing a snorkel!
-
-tropicraft.encyclopedia.solonoxshell.title=Solonox 贝壳
-tropicraft.encyclopedia.solonoxshell.desc=“信风”是热带世界主题曲《信风》的创作者的昵称，Solonox是一种有机会在里面找到一颗黑色或白色珍珠的贝壳，所以要当心！
 
 tropicraft.encyclopedia.starfishshell.title=海星贝壳
 tropicraft.encyclopedia.starfishshell.desc=一种海星形状的贝壳，当你杀死一只海星时会掉落。可以贴在墙上。
@@ -913,3 +980,85 @@ tropicraft.encyclopedia.koa.fisherman.desc=一位友好的原始人，喜欢在�
 
 tropicraft.encyclopedia.koa.hunter.title=原始人猎人
 tropicraft.encyclopedia.koa.hunter.desc=原始人总是在寻找陆地上的下一个大型猎物，会花费珍珠做各种陆地肉类和材料。右击潜水电脑，以尝试接受混合气。
+
+enchantment.bane_of_reptiles=Bane of Reptiles
+enchantment.beach_combing=Beach Combing
+enchantment.fruit_ninja=Fruit Ninja
+enchantment.midas_touch=Midas Touch
+enchantment.scuba_steve=Scuba Steve
+
+death.attack.dart=%s was pin cushioned to death
+
+tropicraft.encyclopedia.section.tribes.title=Tribes
+tropicraft.encyclopedia.section.mobs.land.title=Land Animals
+tropicraft.encyclopedia.section.mobs.water.title=Under Da Sea
+tropicraft.encyclopedia.ltinfo.title=What is Love Tropics?
+tropicraft.encyclopedia.ltinfo.desc=Love Tropics is a yearly charity stream organized by Team Tropicraft to support tropical areas affected by natural disasters. Last year (2018), we raised over $35,000 for Team Rubicon!\n\nEach year, we put the name of everyone who donated in this book to be immortalized for their generosity. Join us next year for a great time with your favorite Mojangstas, streamers, YouTubers, and mod developers!\n\nGo to lovetropics.org for more info.
+tropicraft.encyclopedia.lt18.title=Love Tropics 2018
+tropicraft.encyclopedia.hotcocoa.title=Hot Cocoa
+tropicraft.encyclopedia.hotcocoa.desc=Don't mind this place holder.
+tropicraft.encyclopedia.zirconium.title=Zirconium
+tropicraft.encyclopedia.zirconium.desc=This rare crystal, when combined with azurite, is rumored to unlock ancient powers. It also can be crafted to make tools of mystical strength!
+tropicraft.encyclopedia.ashen.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.iguana.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.treefrog.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.eih.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.monkey.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.tropicreeper.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.tropiskelly.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.failgull.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.tropispider.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.starfish.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.marlin.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.fish.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.turtle.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.mow.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.eagleray.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.seaurchin.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.piranha.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.sardine.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.dolphin.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.seahorse.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.hammerhead.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.dart_gun.title=Dart Gun
+tropicraft.encyclopedia.dart_gun.desc=This tube of bamboo is used to shoot neurotoxin-laced darts at your pray. You will be surprised how a far and fast you can shoot a dart with a hefty blow. Neurotoxins not included.
+tropicraft.encyclopedia.hoesouzium.title=Souzium Aqua Hoe
+tropicraft.encyclopedia.hoesouzium.desc=Hoe constructed of an unknown material that mines faster while underwater, but slower above water.
+tropicraft.encyclopedia.pickaxesouzium.title=Souzium Aqua Pickaxe
+tropicraft.encyclopedia.pickaxesouzium.desc=Pickaxe constructed of an unknown material that mines faster while underwater, but slower above water.
+tropicraft.encyclopedia.shovelsouzium.title=Souzium Aqua Shovel
+tropicraft.encyclopedia.shovelsouzium.desc=Shovel constructed of an unknown material that mines faster while underwater, but slower above water.
+tropicraft.encyclopedia.axesouzium.title=Souzium Aqua Axe
+tropicraft.encyclopedia.axesouzium.desc=Axe constructed of an unknown material that mines faster while underwater, but slower above water.
+tropicraft.encyclopedia.mahoganysapling.title=Mahogany Saplings
+tropicraft.encyclopedia.mahoganysapling.desc=Grows into imposing tall trees with large leaf canopies.
+tropicraft.encyclopedia.palmdoor.title=Palm Door
+tropicraft.encyclopedia.palmdoor.desc=A sturdy wooden door great for keeping the bad things out.
+tropicraft.encyclopedia.palm_trapdoor.title=Palm Trapdoor
+tropicraft.encyclopedia.palm_trapdoor.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.mahoganyplanks.title=Mahogany Planks
+tropicraft.encyclopedia.mahoganyplanks.desc=Mahogany planks come from mahogany wood which comes from mahogany trees!
+tropicraft.encyclopedia.mahoganydoor.title=Mahogany Door
+tropicraft.encyclopedia.mahoganydoor.desc=A sturdy wooden door great for keeping the bad things out.
+tropicraft.encyclopedia.mahogany_trapdoor.title=Mahogany Trapdoor
+tropicraft.encyclopedia.mahogany_trapdoor.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.bamboo_crafting_table.title=Bamboo Crafting Table
+tropicraft.encyclopedia.bamboo_crafting_table.desc=The finishing touch for any tropical base of operation.
+tropicraft.encyclopedia.bamboo_trapdoor.title=Bamboo Trapdoor
+tropicraft.encyclopedia.bamboo_trapdoor.desc=This bamboo and thatch trapdoor is perfect for separating you from the wilderness. Be careful though, this trapdoor isn't very strong.
+tropicraft.encyclopedia.thatchdoor.title=Thatch Door
+tropicraft.encyclopedia.thatchdoor.desc=As easy to craft as it is to break, the thatch block provides another sustainable building material to Tropics.
+tropicraft.encyclopedia.thatch_trapdoor.title=Thatch Trapdoor
+tropicraft.encyclopedia.thatch_trapdoor.desc=This thatch trapdoor is perfect for separating you from the wilderness. Be careful though, this trapdoor isn't very strong.
+tropicraft.encyclopedia.soloshell.title=Solonox Shell
+tropicraft.encyclopedia.soloshell.desc=Named after the creator of Tropicraft's theme song "Trade Winds", the Solonox shell yields a chance of finding a black or white pearl inside, so be on the lookout!
+tropicraft.encyclopedia.froxshell.title=Frox Conch
+tropicraft.encyclopedia.froxshell.desc=Created to commemorate the donators of the yearly LoveTropics charity event.
+tropicraft.encyclopedia.rubeshell.title=Rube Nautilus
+tropicraft.encyclopedia.rubeshell.desc=Named after one of the current modders of tropicraft, MrRube, the Rube Nautilus was actually made by MrRube before v1.0 of Tropicraft, but was never given a use...until now!
+tropicraft.encyclopedia.buriedtreasure.title=Buried Treasure
+tropicraft.encyclopedia.buriedtreasure.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.nigel.title=Nigel Winthorpe
+tropicraft.encyclopedia.nigel.desc=The person who's journal was used to write the Encyclopedia Tropica. He was the first to discover the Tropics after finding a strange staff in an unknown jungle temple. While his current were abouts are unknown one thing is certain, he sure won't needing this no more.
+tropicraft.encyclopedia.dart.title=Dart
+tropicraft.encyclopedia.dart.desc=This neurotoxin-laced dart is capable of stopping most mobs in their tracks. Be careful though, the effect is only temporary. Darts can have varying potion effects associated with them. Now neurotoxin-free!

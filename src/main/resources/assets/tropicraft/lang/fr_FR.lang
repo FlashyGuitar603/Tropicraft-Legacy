@@ -1,3 +1,9 @@
+#PARSE_ESCAPES
+
+# Resource Pack
+
+resourcePack.tropicraft.texture_update.description=A sneak-peak! By Hexablu and Endergized.
+
 # Biomes
 
 tropicraft.biome.tropics_ocean.name=Tropics Ocean
@@ -11,7 +17,17 @@ tropicraft.biome.tc_tropics_river.name=Tropics River
 tropicraft.biome.tc_tropics_beach.name=Tropics Beach
 tropicraft.biome.tc_tropics_lake.name=Tropics Lake
 
-# BLOCS
+# Block localizations
+
+tile.tropicraft.bamboo_chest_large.name=Large Bamboo Chest
+tile.tropicraft.bamboo_crafting_table.name=Bamboo Crafting Table
+tile.tropicraft.donation.name=Donation Alert Spawner
+tile.tropicraft.donation.tooltip1=Currently out of order :(
+tile.tropicraft.donation.tooltip=Spawns fireworks when a donation is received!
+tile.tropicraft.fire_pit.name=Fire Pit
+tile.tropicraft.pineapple_cake.name=Pineapple Cake
+tile.tropicraft.zirconium_block.name=Zirconium Block
+
 tile.tropicraft.chunk.name=Tronçon
 tile.tropicraft.chunk_stairs.name=Escaliers en tronçon
 tile.tropicraft.ore.eudialyte.name=Minerai d'eudialyte
@@ -106,7 +122,30 @@ tile.tropicraft.portal_wall.name=Muret de portail des tropiques
 tile.tropicraft.bamboo_ladder.name=Échelle en bambou
 tile.tropicraft.packed_purified_sand.name=Sable purifié tassé
 
-# OBJETS
+# Item localizations
+
+item.tropicraft.axe_souzium.name=Souzium Aqua Axe
+item.tropicraft.axe_zirconium.name=Zirconium Axe
+item.tropicraft.bamboo_trapdoor.name=Bamboo Trapdoor
+item.tropicraft.dart.name=Dart
+item.tropicraft.dart_gun.name=Dart Gun
+item.tropicraft.hoe_souzium.name=Souzium Aqua Hoe
+item.tropicraft.hoe_zirconium.name=Zirconium Hoe
+item.tropicraft.leaf_ball.name=Leaf Ball
+item.tropicraft.mahogany_door.name=Mahogany Door
+item.tropicraft.mahogany_trapdoor.name=Mahogany Trapdoor
+item.tropicraft.nigel_stache.name=Nigel Moustache
+item.tropicraft.palm_door.name=Palm Door
+item.tropicraft.palm_trapdoor.name=Palm Trapdoor
+item.tropicraft.pickaxe_souzium.name=Souzium Aqua Pickaxe
+item.tropicraft.pickaxe_zirconium.name=Zirconium Pickaxe
+item.tropicraft.shovel_souzium.name=Souzium Aqua Shovel
+item.tropicraft.shovel_zirconium.name=Zirconium Shovel
+item.tropicraft.sword_zirconium.name=Zirconium Spear
+item.tropicraft.thatch_door.name=Thatch Door
+item.tropicraft.thatch_trapdoor.name=Thatch Trapdoor
+item.tropicraft.zirconium.name=Zirconium Crystal
+
 item.tropicraft.eudialyte.name=Tesson d'eudialyte
 item.tropicraft.zircon.name=Cristal de zircon
 item.tropicraft.azurite.name=Cristal d'azurite
@@ -276,7 +315,8 @@ item.tropicraft.nori_toasted.name=Nori grillé
 item.tropicraft.ray_raw.name=Raie léopard crue
 item.tropicraft.ray_cooked.name=Raie léopard cuite
 
-# POISSONS
+# Feesh
+
 item.tropicraft.tropicalfish.0.raw.name=Poisson-clown cru
 item.tropicraft.tropicalfish.1.raw.name=Poisson-ange reine cru
 item.tropicraft.tropicalfish.2.raw.name=Poisson-chirurgien jaune cru
@@ -300,11 +340,13 @@ item.tropicraft.riverfish.sardine.raw.name=Sardine crue
 item.tropicraft.riverfish.piranha.cooked.name=Piranha cuit
 item.tropicraft.riverfish.sardine.cooked.name=Sardine cuite
 
-# MOTS
+# Word localizations
+
 tropicraft.raw=Cru
 tropicraft.cooked=Cuit
 
-# COCKTAILS
+# Cocktail localizations
+
 tropicraft.drink.lemonade.name=Citronnade
 tropicraft.drink.limeade.name=Limonade
 tropicraft.drink.orangeade.name=Orangeade
@@ -313,8 +355,19 @@ tropicraft.drink.coconut_water.name=Eau de noix de coco
 tropicraft.drink.pina_colada.name=Piña Colada
 tropicraft.drink.black_coffee.name=Café noir
 tropicraft.drink.mai_tai.name=Mai Tai
+tropicraft.drink.hot_cocoa.name=Hot Cocoa
 
-# MASQUES
+# Record localizations
+
+item.tropicraft.buried_treasure.name=Buried Treasure
+item.tropicraft.eastern_isles.name=Eastern Isles
+item.tropicraft.low_tide.name=Low Tide
+item.tropicraft.summering.name=Summering
+item.tropicraft.the_tribe.name=The Tribe
+item.tropicraft.trade_winds.name=Trade Winds
+
+# Mask localizations
+
 item.tropicraft.mask_square_zord.name=Zord carré
 item.tropicraft.mask_horn_monkey.name=Singe corné
 item.tropicraft.mask_oblongatron.name=Oblongatron
@@ -329,16 +382,44 @@ item.tropicraft.mask_ashen_mask3.name=Masque de cendres
 item.tropicraft.mask_ashen_mask4.name=Masque de cendres
 item.tropicraft.mask_ashen_mask5.name=Masque de cendres
 
-# MENU
-itemGroup.tropicraft=Tropicraft
+# Enchantments
 
-# CONFIGURATION
+enchantment.bane_of_reptiles=Bane of Reptiles
+enchantment.beach_combing=Beach Combing
+enchantment.fruit_ninja=Fruit Ninja
+enchantment.midas_touch=Midas Touch
+enchantment.scuba_steve=Scuba Steve
+
+# Menu localizations
+
+itemGroup.tropicraft=Tropicraft Legacy
+
+# Config localizations
+
 tropicraft.config.title=Configuration de Tropicraft
 tropicraft.config.generation.title=Paramètres de génération
 tropicraft.config.misc.title=Paramètres divers
 tropicraft.config.entity.title=Paramètres d'entité
+tropicraft.config.modules.title=Compatibility Modules
+tropicraft.config.~lovetropics.title=Donation Settings
 
-# ENTITES
+# Entity localizations
+
+entity.tropicraft.beach_chair.name=Beach Chair
+entity.tropicraft.beach_float.name=Beach Float
+entity.tropicraft.beach_umbrella.name=Beach Umbrella
+entity.tropicraft.failgull.name=Failgull
+entity.tropicraft.fish.name=Tropical Fish
+entity.tropicraft.lavaball.name=Lava Ball
+entity.tropicraft.lost_mask.name=Lost Mask
+entity.tropicraft.mow.name=Man O' War
+entity.tropicraft.poison_bolt.name=Poison Bolt
+entity.tropicraft.sea_turtle_egg.name=Sea Turtle Egg
+entity.tropicraft.seaurchinegg.name=Sea Urchin Egg
+entity.tropicraft.starfishegg.name=Starfish Egg
+entity.tropicraft.treefrog.name=Tree Frog
+entity.tropicraft.tropispideregg.name=Tropical Spider Egg
+
 entity.tropicraft.iguana.name=Iguane
 entity.tropicraft.tropiskelly.name=Squelette tropical
 entity.tropicraft.eih.name=Tête de l'île de Pâques
@@ -371,13 +452,19 @@ entity.tropicraft.tropicalfish.5.name=Poisson Betta
 entity.tropicraft.tropicalfish.6.name=Poisson-chirurgien royal
 entity.tropicraft.tropicalfish.7.name=Gamma royal
 
-# SUCCES
+# Achievement localizations
+
 achievement.tc_craft_pina_colada=Si vous aimez les piña coladas...
 achievement.tc_craft_pina_colada.desc=(Qui n'aime pas ?)
 achievement.tc_drink_pina_colada=Pris sous la pluie
 achievement.tc_drink_pina_colada.desc=(Avez-vous oublié votre parapluie ?)
+achievement.tc=Tropicraft Legacy
+achievement.tc.desc=Welcome to paradise!
+achievement.tc_craft_scale_armor.name=Captain Cactus over here!
+achievement.tc_craft_scale_armor.desc=There I say splendid!
 
 # INTERFACES GRAPHIQUES
+
 tropicraft.gui.air.type=Type d'air : %s
 tropicraft.gui.air.regular=Régulier
 tropicraft.gui.air.trimix=Trimix
@@ -391,23 +478,29 @@ tropicraft.gui.gear.tank.left.none=Pas de bouteille gauche
 tropicraft.gui.gear.tank.left.info=Bouteille gauche :
 tropicraft.gui.gear.tank.right.none=Pas de bouteille droite
 tropicraft.gui.gear.tank.right.info=Bouteille droite :
-tropicraft.gui.gear.tank.tank.click=Clic droit + Maj pour placer les bouteilles dedans !
+tropicraft.gui.gear.tank.click=Clic droit + Maj pour placer les bouteilles dedans !
 gui.tropicraft.temperature=Température
 gui.tropicraft.currentDepth=Profondeur
 gui.tropicraft.maxDepth=Maximum
 gui.tropicraft.timeRemaining=Temps de gaz
-gui.tropicraft.amtRefined=Pourcentage pur
 
-# FLUIDES
+#Death message localization
+
+death.attack.dart=%s was pin cushioned to death
+
+# Fluid localizations
+
 fluid.tropicraft.water=Eau tropicale
 fluid.tropicraft.portal=Portail des tropiques
 
-# DIVERS
+# Misc localizations
+
 tropicraft.coconutBombWarning=Vous n'avez pas la permission d'utiliser les noix de coco explosives :) Vérifiez la liste blanche des noix de coco explosives dans le fichier de configuration Tropicraft !
 portalenchanter.type_0=Mode : Construction du portail
 portalenchanter.type_1=Mode : Téléportation instantanée
 
-# COMMERCE KOA
+# Koa Trading
+
 entity.tropicraft.koa.trade.give=Ayez un peu de gaz trimix !
 entity.tropicraft.koa.trade.not_enough_time=Vous avez encore besoin de %s minutes de plus de temps de plongée ! Pas de gaz trimix pour vous !
 entity.tropicraft.koa.trade.cooldown=J'ai déjà donné du gaz trimix à quelqu'un récemment
@@ -418,10 +511,12 @@ entity.tropicraft.koa.female.hunter.name=Chasseuse Koa
 entity.tropicraft.koa.male.fisherman.name=Pêcheur Koa
 entity.tropicraft.koa.female.fisherman.name=Pêcheuse Koa
 
-# NOTIFICATION DE TCHAT
+# Misc chat notifications
+
 tropicraft.chat.teleport.unable=Vous devriez boire une piña colada avant de vous téléporter !
 
-# ECRAN DE CHARGEMENT
+# Loading Screen
+
 tropicraft.loading.title.greeting=À la dérive dans les tropiques...
 tropicraft.loading.title.farewell=J'espèrais votre venue...
 
@@ -437,17 +532,29 @@ tropicraft.loading.hint.2=%s Les iguanes sont rancuniers, essayez donc d'éviter
 tropicraft.loading.misc.1=N'oubliez pas de retenir votre respiration !
 tropicraft.loading.misc.2=Préparez-vous à faire sensation
 
-# INFOBULLES
+# Tooltips
+
 tropicraft.tooltip.air_compressor=Placez une ou deux bouteilles de plongée vides dans le compresseur pour les remplir d'air !
 tropicraft.tooltip.drink_mixer=Placez deux ingrédients de boissons dans le mixeur, puis placez une tasse vide sur la base, puis ???, et enfin profitez !
 tropicraft.tooltip.sifter=Placez n'importe quel type de sable tropical ou régulier dans le tamis. Quels trésors sont cachés à l'intérieur ?
 
-# TEXTE DU LIVRE
+dart.tropicraft:prefix.name=Dart of
+dart.tropicraft:paralyze.name=Paralysis
+dart.tropicraft:poison.name=Poison
+dart.tropicraft:moveSlowdown.name=Slow Movement
+dart.tropicraft:harm.name=Harm
+dart.tropicraft:confusion.name=Confusion
+dart.tropicraft:hunger.name=Hunger
+dart.tropicraft:weakness.name=Weakness
+
+# Book text
+
 tropicraft.book.toc.title=Table des matières
 tropicraft.book.bookmarks.title=Marque-pages
 tropicraft.book.bookmarks.tooltip=Voir les marque-pages
 
-# SECTIONS DE L'ENCYCLOPEDIE
+# Encyclopedia Sections
+
 tropicraft.encyclopedia.section.foods.title=Nourriture tropicale
 tropicraft.encyclopedia.section.drinks.title=Boissons tropicales
 tropicraft.encyclopedia.section.world.title=Monde des tropiques
@@ -465,3 +572,556 @@ tropicraft.encyclopedia.section.misc.title=Divers
 tropicraft.encyclopedia.section.lovetropics.title=Love Tropics
 
 tropicraft.encyclopedia.lt17.title=Love Tropics 2017
+
+# Encyclopedia Entries
+
+tropicraft.encyclopedia.encyclopedia.title=About Encyclopedia
+tropicraft.encyclopedia.encyclopedia.desc=The Encyclopedia Tropica is the source for information about the Tropics many items. Having been printed with magical ink, the book writes itself as you acquire the item. New Entries will be blue, and you can navigate the pages using the tabs on the sides of the book. Items that are craftable will have an anvil tab.
+
+# Tropical Food
+
+tropicraft.encyclopedia.pineapple.title=Pineapple
+tropicraft.encyclopedia.pineapple.desc=Since it is easily sustainable, the pineapple makes a great source of food. If you slash them on the stem with a sword, you will receive pineapple cubes. Combined with a bamboo mug and coconut chunks, you can make yourself a refreshing piña colada.
+
+tropicraft.encyclopedia.pineapplecubes.title=Pineapple Cubes
+tropicraft.encyclopedia.pineapplecubes.desc=This great food source can easily be obtained by slashing a pineapple with a sword.
+
+tropicraft.encyclopedia.coconut.title=Coconut
+tropicraft.encyclopedia.coconut.desc=Coconuts grow on the palm trees of the Tropics. By hitting them with a sword you can get coconut chunks which make a great snack. Their hard shell fragments easily, making them great for explosives.
+
+tropicraft.encyclopedia.coconutchunks.title=Coconut Chunks
+tropicraft.encyclopedia.coconutchunks.desc=You can get this tasty treat by smacking a coconut with a sword. Combined with a pineapple and bamboo mug, you can make a refreshing piña colada.
+
+tropicraft.encyclopedia.froglegs.title=Frog Legs
+tropicraft.encyclopedia.froglegs.desc=The legs of the passive tree frogs are actually edible, however, they need to be cooked first.
+
+tropicraft.encyclopedia.froglegscooked.title=Frog Legs, Cooked
+tropicraft.encyclopedia.froglegscooked.desc=This rare delicacy is the result of cooking frog legs.
+
+tropicraft.encyclopedia.grapefruit.title=Grapefruit
+tropicraft.encyclopedia.grapefruit.desc=Tasty grapefruit citrus fruit that drops from Grapefruit leaves.
+
+tropicraft.encyclopedia.lemon.title=Lemon
+tropicraft.encyclopedia.lemon.desc=Tasty lemon citrus fruit that drops from Lemon leaves.
+
+tropicraft.encyclopedia.lime.title=Lime
+tropicraft.encyclopedia.lime.desc=Tasty lime citrus fruit that drops from Lime leaves.
+
+tropicraft.encyclopedia.orange.title=Orange
+tropicraft.encyclopedia.orange.desc=Tasty orange citrus fruit that drops from Orange leaves.
+
+tropicraft.encyclopedia.marlinmeat.title=Fresh Marlin
+tropicraft.encyclopedia.marlinmeat.desc=Flesh of the elusive marlin. Cook this to get Seared Marlin.
+
+tropicraft.encyclopedia.marlincooked.title=Seared Marlin
+tropicraft.encyclopedia.marlincooked.desc=Mmmm. Yummy in my tummy. This is what you get when you cook Fresh Marlin.
+
+tropicraft.encyclopedia.seaurchinroe.title=Sea Urchin Roe
+tropicraft.encyclopedia.seaurchinroe.desc=Sea Urchin Eggs. Excellent source of Omega-3 fatty acids. That's all you need to know.
+
+tropicraft.encyclopedia.rayraw.title=Raw Spotted Eagle Ray
+tropicraft.encyclopedia.rayraw.desc=Spotted eagle rays are a rare sight in the tropics, but their smooth motions are as majestic as they are mesmerizing. You can kill one to get this raw fish, but...they're beautiful creatures, why would you??
+
+tropicraft.encyclopedia.raycooked.title=Cooked Spotted Eagle Ray
+tropicraft.encyclopedia.raycooked.desc=A delicacy in some cultures, this light fish meat is what you get when you cook Raw Ray.
+
+# Tropical Drinks
+
+tropicraft.encyclopedia.mixer.title=EIH Mixer
+tropicraft.encyclopedia.mixer.desc=Mix various types of fruits with this to get different cocktails. You could have your own bar!
+
+tropicraft.encyclopedia.bamboomug.title=Bamboo Mug
+tropicraft.encyclopedia.bamboomug.desc=Bamboo mugs are great for holding tropical drinks. Why don't you find a pineapple and coconut and make yourself a refreshing Piña Colada.
+
+tropicraft.encyclopedia.blackcoffee.title=Black Coffee
+tropicraft.encyclopedia.blackcoffee.desc=Who doesn't like coffee? Brew yourself a nice cup o' joe and watch the sunrise from your bungalow.
+
+tropicraft.encyclopedia.caipirinha.title=Caipirinha
+tropicraft.encyclopedia.caipirinha.desc=Though the Koa are not too fond of this citrusy drink, the lime and sugarcane that comprise it complement any beautiful sunset in the tropics.
+
+tropicraft.encyclopedia.lemonade.title=Lemonade
+tropicraft.encyclopedia.lemonade.desc=Tasty lemon citrus drink. 'Nuff said.
+
+tropicraft.encyclopedia.limeade.title=Limeade
+tropicraft.encyclopedia.limeade.desc=Like lemonade, but with limes!
+
+tropicraft.encyclopedia.orangeade.title=Orangeade
+tropicraft.encyclopedia.orangeade.desc=Like lemonade, but with oranges!
+
+tropicraft.encyclopedia.pinacolada.title=Piña Colada
+tropicraft.encyclopedia.pinacolada.desc=This refreshing drink is made by mixing pineapples and coconut chunks in a bamboo mug. Watch out though, monkeys enjoy piña coladas just as much as you do.
+
+tropicraft.encyclopedia.hotcocoa.title=Hot Cocoa
+tropicraft.encyclopedia.hotcocoa.desc=Don't mind this place holder.
+
+# Tropics World
+
+tropicraft.encyclopedia.azurite.title=Azurite
+tropicraft.encyclopedia.azurite.desc=This soft mineral is actually an ore of copper. It owes it's pretty blue color to the weathering of copper ore deposits.
+
+tropicraft.encyclopedia.zircon.title=Zircon
+tropicraft.encyclopedia.zircon.desc=This mystical red crystal can be mined from Zircon ores, which are found deep underground in the tropical realm.
+
+tropicraft.encyclopedia.zirconium.title=Zirconium
+tropicraft.encyclopedia.zirconium.desc=This rare crystal, when combined with azurite, is rumored to unlock ancient powers. It also can be crafted to make tools of mystical strength!
+
+tropicraft.encyclopedia.eudialyte.title=Eudialyte
+tropicraft.encyclopedia.eudialyte.desc=This pink-ish colorful crystal can be found when you mine Eudialyte ore, which is found underground in the tropicraft realm. It is a great material for tools.
+
+tropicraft.encyclopedia.purifiedsand.title=Purified Sand
+tropicraft.encyclopedia.purifiedsand.desc=Purified sand makes up the majority of the Tropics, with rare patches of special types of sand.
+
+tropicraft.encyclopedia.coralsand.title=Coral Sands
+tropicraft.encyclopedia.coralsand.desc=It is rumored that hundreds of years ago, these coral sands were washed ashore during a tornado.
+
+tropicraft.encyclopedia.foamysand.title=Green Sands
+tropicraft.encyclopedia.foamysand.desc=This rare sand is rumored to have formed long ago when the Tropics were first emerging from the depths of the ocean and is most commonly found below patches of seaweed.
+
+tropicraft.encyclopedia.volcanicsand.title=Volcanic Sands
+tropicraft.encyclopedia.volcanicsand.desc=Tread lightly on this sand...or don't at all. If you aren't wearing any scale or fire armor, you better be ready to run reaaaaaaaaally fast.
+
+tropicraft.encyclopedia.mineralsand.title=Mineral Sands
+tropicraft.encyclopedia.mineralsand.desc=This special type of sand is rumored to contain various minerals. Their use is currently unknown. Can be found beneath the purified sands of tropical oceans.
+
+# Tribes
+
+tropicraft.encyclopedia.koa.fisherman.title=Koa Fisherman
+tropicraft.encyclopedia.koa.fisherman.desc=A friendly Koa, prefers to fish anything available in the sea, will take pearls for various fish meats. Right click with dive computer to try to receive trimix.
+
+tropicraft.encyclopedia.koa.hunter.title=Koa Hunter
+tropicraft.encyclopedia.koa.hunter.desc=A Koa always looking for their next great hunt on land, will take pearls for various land meats and materials. Right click with dive computer to try to receive trimix.
+
+tropicraft.encyclopedia.ashen.desc=Don't mind this place holder text.
+
+tropicraft.encyclopedia.ashenmask.title=Ashen Mask
+tropicraft.encyclopedia.ashenmask.desc=These masks are the source of an Ashen's identity. Without a mask, an Ashen is naked, fearful, and cowardly, while with one, they are perhaps the most agressive hunters in the Tropics. By wearing a mask, you are considered an Ashen. Masks can also be hung on walls for decoration. Be wary though, as a maskless Ashen will take the closest mask.
+
+# Land Animals
+
+tropicraft.encyclopedia.iguana.desc=Don't mind this place holder text.
+
+tropicraft.encyclopedia.treefrog.desc=Don't mind this place holder text.
+
+tropicraft.encyclopedia.eih.desc=Don't mind this place holder text.
+
+tropicraft.encyclopedia.monkey.desc=Don't mind this place holder text.
+
+tropicraft.encyclopedia.tropicreeper.desc=Don't mind this place holder text.
+
+tropicraft.encyclopedia.tropiskelly.desc=Don't mind this place holder text.
+
+tropicraft.encyclopedia.failgull.desc=Don't mind this place holder text.
+
+tropicraft.encyclopedia.tropispider.desc=Don't mind this place holder text.
+
+# Under Da Sea
+
+tropicraft.encyclopedia.starfish.desc=Don't mind this place holder text.
+
+tropicraft.encyclopedia.marlin.desc=Don't mind this place holder text.
+
+tropicraft.encyclopedia.fish.desc=Don't mind this place holder text.
+
+tropicraft.encyclopedia.turtle.desc=Don't mind this place holder text.
+
+tropicraft.encyclopedia.mow.desc=Don't mind this place holder text.
+
+tropicraft.encyclopedia.eagleray.desc=Don't mind this place holder text.
+
+tropicraft.encyclopedia.seaurchin.desc=Don't mind this place holder text.
+
+tropicraft.encyclopedia.piranha.desc=Don't mind this place holder text.
+
+tropicraft.encyclopedia.sardine.desc=Don't mind this place holder text.
+
+tropicraft.encyclopedia.dolphin.desc=Don't mind this place holder text.
+
+tropicraft.encyclopedia.seahorse.desc=Don't mind this place holder text.
+
+tropicraft.encyclopedia.hammerhead.desc=Don't mind this place holder text.
+
+# Tropical Tools
+
+tropicraft.encyclopedia.dagger.title=Dagger
+tropicraft.encyclopedia.dagger.desc=Weilded by the Koa tribe when hunting or when attacked.
+
+tropicraft.encyclopedia.bamboospear.title=Bamboo Spear
+tropicraft.encyclopedia.bamboospear.desc=This sharpened stick is extremely powerful when first crafted. Be warned though, the spear looses its sharpness quickly.
+
+tropicraft.encyclopedia.fishingrod.title=Bamboo Fishing Rod
+tropicraft.encyclopedia.fishingrod.desc=A must have tool for any budding fisherman, this rod has a light weight feel and an ergonomic design that makes fishing for supper a breeze!
+
+tropicraft.encyclopedia.waterwand.title=Water Wand
+tropicraft.encyclopedia.waterwand.desc=This mysterious rod has the unique ability to absorb 1000 blocks of water. This property makes the Water Wand perfect for creating water free underwater abodes.
+
+tropicraft.encyclopedia.portalstarter.title=Tropicraft Portal Enchanter
+tropicraft.encyclopedia.portalstarter.desc=This item, made with enchanted azurite and zircon, forms a portal that can be used to teleport between the Tropics and overworld when right-clicked on a 3x3 flat square of sandstone filled with water inside.
+
+tropicraft.encyclopedia.fishingnet.title=Fishing Net
+tropicraft.encyclopedia.fishingnet.desc=This sturdy net is great for picking up the small fish that inhabit the Tropics. Be sure to have a water bucket, or you won't have anywhere to place you fish.
+
+tropicraft.encyclopedia.fishbucket.title=Fish in a Bucket
+tropicraft.encyclopedia.fishbucket.desc=Use this to place the fish that you catch in the wild. Make an aquarium, perhaps!
+
+tropicraft.encyclopedia.dart_gun.title=Dart Gun
+tropicraft.encyclopedia.dart_gun.desc=This tube of bamboo is used to shoot neurotoxin-laced darts at your pray. You will be surprised how a far and fast you can shoot a dart with a hefty blow. Neurotoxins not included.
+
+tropicraft.encyclopedia.hoesouzium.title=Souzium Aqua Hoe
+tropicraft.encyclopedia.hoesouzium.desc=Hoe constructed of an unknown material that mines faster while underwater, but slower above water.
+
+tropicraft.encyclopedia.pickaxesouzium.title=Souzium Aqua Pickaxe
+tropicraft.encyclopedia.pickaxesouzium.desc=Pickaxe constructed of an unknown material that mines faster while underwater, but slower above water.
+
+tropicraft.encyclopedia.shovelsouzium.title=Souzium Aqua Shovel
+tropicraft.encyclopedia.shovelsouzium.desc=Shovel constructed of an unknown material that mines faster while underwater, but slower above water.
+
+tropicraft.encyclopedia.axesouzium.title=Souzium Aqua Axe
+tropicraft.encyclopedia.axesouzium.desc=Axe constructed of an unknown material that mines faster while underwater, but slower above water.
+
+# Armors
+
+tropicraft.encyclopedia.firehelm.title=Fire Helmet
+tropicraft.encyclopedia.firehelm.desc=Helmet constructed of an unknown material that gains durability when in fire, but don't stand in the fire too long, or you will be burned!
+
+tropicraft.encyclopedia.firechestplate.title=Fire Chestplate
+tropicraft.encyclopedia.firechestplate.desc=Chestplate constructed of an unknown material that gains durability when in fire, but don't stand in the fire too long, or you will be burned!
+
+tropicraft.encyclopedia.fireleggings.title=Fire Leggings
+tropicraft.encyclopedia.fireleggings.desc=Leggings constructed of an unknown material that gains durability when in fire, but don't stand in the fire too long, or you will be burned!
+
+tropicraft.encyclopedia.fireboots.title=Fire Boots
+tropicraft.encyclopedia.fireboots.desc=Boots constructed of an unknown material that gains durability when in fire, but don't stand in the fire too long, or you will be burned!
+
+tropicraft.encyclopedia.scalehelm.title=Scale Helmet
+tropicraft.encyclopedia.scalehelm.desc=Helmet made of iguana scales that provides fire resistance for whomever wears it.
+
+tropicraft.encyclopedia.scalechestplate.title=Scale Chestplate
+tropicraft.encyclopedia.scalechestplate.desc=Chestplate mesh of iguana scales that provides fire resistance for whomever wears it.
+
+tropicraft.encyclopedia.scaleleggings.title=Scale Leggings
+tropicraft.encyclopedia.scaleleggings.desc=Leggings made of iguana scales that provide fire resistance for whomever wears them.
+
+tropicraft.encyclopedia.scaleboots.title=Scale Boots
+tropicraft.encyclopedia.scaleboots.desc=Boots made out of iguana scales that provide fire resistance for whomever wears them.
+
+# Scuba Gear
+
+tropicraft.encyclopedia.scubaflippers.title=Scuba Flippers
+tropicraft.encyclopedia.scubaflippers.desc=These flexible flippers come in two different colors: pink and yellow! You can glide around the tropics water effortlessly wearing these bad boys. Hint: Do a barrel roll!
+
+tropicraft.encyclopedia.scubachestplate.title=Scuba Chestplate Gear
+tropicraft.encyclopedia.scubachestplate.desc=This complicated looking scuba chestplate allows you to wear a number of scuba tanks. Shift + right click the item to wear up to 2 scuba tanks!
+
+tropicraft.encyclopedia.scubagoggles.title=Scuba Goggles
+tropicraft.encyclopedia.scubagoggles.desc=This piece of the scuba suit allows you to not only view the values from your Dive Computer, but breathe air from the scuba tanks you're wearing.
+
+tropicraft.encyclopedia.divecomputer.title=Dive Computer
+tropicraft.encyclopedia.divecomputer.desc=A rare piece of tropics technology, the dive computer logs various values from your time underwater. After you've swam for an hour, hand your dive computer to a Koa for a surprise!
+
+tropicraft.encyclopedia.weightbelt.title=Weight Belt
+tropicraft.encyclopedia.weightbelt.desc=The weight belt allows your scuba chestplate to keep you underwater.
+
+tropicraft.encyclopedia.ponybottle.title=Pony Bottle
+tropicraft.encyclopedia.ponybottle.desc=Always bring along a pony bottle on your long scuba dives. When you run out of air, a pony bottle will refill your air temporarily, allowing you to swim to the surface safely.
+
+tropicraft.encyclopedia.bcd.title=BCD
+tropicraft.encyclopedia.bcd.desc=Short for "Buoyancy Compensator Device", the BCD helps get air from your tanks to your mouthpiece.
+
+tropicraft.encyclopedia.regulator.title=Diving Regulator
+tropicraft.encyclopedia.regulator.desc=This device regulates the pressure between the breathing gas and the diver. In other words, this thing helps you not go boom.
+
+tropicraft.encyclopedia.scubatank.title=Scuba Tank
+tropicraft.encyclopedia.scubatank.desc=Scuba tanks hold all the air that you breathe while diving. Refill your scuba tanks in an air compressor block.
+
+tropicraft.encyclopedia.trimix.title=Trimix Gas Mixture
+tropicraft.encyclopedia.trimix.desc=A breathing gas consisting of oxygen, helium, and nitrogen. Trimix can be placed in an air compressor to fill a tank with trimix-infused air, allowing the player to stay underwater for much longer!
+
+# Beach Accessories
+
+tropicraft.encyclopedia.beachchair.title=Beach Chair
+tropicraft.encyclopedia.beachchair.desc=Ahhh. Cast your line into the warm blue ocean, watch as a school of fish slowly approaches, and do all of this in the luxury of a beach chair! Sit back and relax in a chair of one of sixteen colors.
+
+tropicraft.encyclopedia.beachfloat.title=Beach Floats
+tropicraft.encyclopedia.beachfloat.desc=These relaxing floats allow the gentle currents of the tropics to move you. They come in sixteen different colors.
+
+tropicraft.encyclopedia.beachumbrella.title=Beach Umbrella
+tropicraft.encyclopedia.beachumbrella.desc=A beach getaway is not complete until there is an umbrella to shade yourself with! Also comes in sixteen different colors.
+
+# Tropical Flora
+
+tropicraft.encyclopedia.reeds.title=Reeds
+tropicraft.encyclopedia.reeds.desc=In the Tropics, sugar cane serves a new purpose: thatching.
+
+tropicraft.encyclopedia.bamboo.title=Bamboo Shoot
+tropicraft.encyclopedia.bamboo.desc=Bamboo is by far the most versatile item in the Tropics. You can craft weapons, blocks, and mugs from this sustainable resource.
+
+tropicraft.encyclopedia.coffeebean.title=Coffee Bean
+tropicraft.encyclopedia.coffeebean.desc=The pit inside the red or purple fruit often referred to as a cherry. This is the seed for the coffee plants found throughout the tropics.
+
+tropicraft.encyclopedia.coral.title=Coral
+tropicraft.encyclopedia.coral.desc=While these bioluminescent lifeforms are at home in the ocean, they are well suited for lighting up an aquarium.
+
+tropicraft.encyclopedia.kapok.title=Kapok Leaves
+tropicraft.encyclopedia.kapok.desc=These leaves are found on humongous trees that appear on rare occasions in rainforest biomes.
+
+tropicraft.encyclopedia.mahogany.title=Mahogany Wood
+tropicraft.encyclopedia.mahogany.desc=This beautifully colored wood comprises all Tropicraft rainforest trees and make for a beautiful addition to any tropical paradise.
+
+tropicraft.encyclopedia.palmwood.title=Palm Wood
+tropicraft.encyclopedia.palmwood.desc=Palm trees are made of a surprisingly sturdy wood. It can also be split into planks.
+
+tropicraft.encyclopedia.lemonsapling.title=Lemon Sapling
+tropicraft.encyclopedia.lemonsapling.desc=Grows into a lemon tree. When live gives you lemon saplings, make...lemon trees?
+
+tropicraft.encyclopedia.limesapling.title=Lime Sapling
+tropicraft.encyclopedia.limesapling.desc=Grows into a lime tree. Pucker your lips, limes are sure to leave a crazy aftertaste once you grow the lime sapling into a full tree!
+
+tropicraft.encyclopedia.orangesapling.title=Orange Sapling
+tropicraft.encyclopedia.orangesapling.desc=Plant this orange sapling, and soon you will have a fully-bloomed orange tree! Punch orange leaves, get orange. ??? Profit!
+
+tropicraft.encyclopedia.grapefruitsapling.title=Grapefruit Sapling
+tropicraft.encyclopedia.grapefruitsapling.desc=Grows into a grapefruit tree, where you can get yummy grapefruits from!
+
+tropicraft.encyclopedia.palmsapling.title=Palm Saplings
+tropicraft.encyclopedia.palmsapling.desc=These shoots can only grow on sand. Like other trees, they grow best in wide open areas and benefit from the use of bone meal.
+
+tropicraft.encyclopedia.mahoganysapling.title=Mahogany Saplings
+tropicraft.encyclopedia.mahoganysapling.desc=Grows into imposing tall trees with large leaf canopies.
+
+# Decor
+
+tropicraft.encyclopedia.palmplanks.title=Palm Planks
+tropicraft.encyclopedia.palmplanks.desc=Palm planks come from palm wood which comes from palm trees!
+
+tropicraft.encyclopedia.palmdoor.title=Palm Door
+tropicraft.encyclopedia.palmdoor.desc=A sturdy wooden door great for keeping the bad things out.
+
+tropicraft.encyclopedia.palmfence.title=Palm Fence
+tropicraft.encyclopedia.palmfence.desc=Palm trees are made of a surprisingly sturdy wood. Its beautiful planks can create fences.
+
+tropicraft.encyclopedia.palmfencegate.title=Palm Fence Gate
+tropicraft.encyclopedia.palmfencegate.desc=Palm trees are made of a surprisingly sturdy wood. Its beautiful planks can create fence gates.
+
+tropicraft.encyclopedia.palm_trapdoor.title=Palm Trapdoor
+tropicraft.encyclopedia.palm_trapdoor.desc=Don't mind this place holder text.
+
+tropicraft.encyclopedia.mahoganyplanks.title=Mahogany Planks
+tropicraft.encyclopedia.mahoganyplanks.desc=Mahogany planks come from mahogany wood which comes from mahogany trees!
+
+tropicraft.encyclopedia.mahoganydoor.title=Mahogany Door
+tropicraft.encyclopedia.mahoganydoor.desc=A sturdy wooden door great for keeping the bad things out.
+
+tropicraft.encyclopedia.mahoganyfence.title=Mahogany Fence
+tropicraft.encyclopedia.mahoganyfence.desc=This beautifully colored wood comprises all Tropicraft rainforest trees and make for a beautiful addition to any tropical paradise.
+
+tropicraft.encyclopedia.mahoganyfencegate.title=Mahogany Fence Gate
+tropicraft.encyclopedia.mahoganyfencegate.desc=This beautifully colored wood comprises all Tropicraft rainforest trees and make for a beautiful addition to any tropical paradise.
+
+tropicraft.encyclopedia.mahogany_trapdoor.title=Mahogany Trapdoor
+tropicraft.encyclopedia.mahogany_trapdoor.desc=Don't mind this place holder text.
+
+tropicraft.encyclopedia.bambooblock.title=Bamboo Block
+tropicraft.encyclopedia.bambooblock.desc=This easy-to-craft block is made from sustainable bamboo. Watch out, it isn't very strong.
+
+tropicraft.encyclopedia.bamboochest.title=Bamboo Chest
+tropicraft.encyclopedia.bamboochest.desc=A chest made out of bamboo! It will complete your tropical-themed shack!
+
+tropicraft.encyclopedia.bamboodoor.title=Bamboo Door
+tropicraft.encyclopedia.bamboodoor.desc=This bamboo and thatch door is perfect for separating you from the wilderness. Be careful though, this door isn't very strong.
+
+tropicraft.encyclopedia.bamboofence.title=Bamboo Fence
+tropicraft.encyclopedia.bamboofence.desc=This bamboo fence is great at keeping the bad things out. Careful though, this fence isn't very strong.
+
+tropicraft.encyclopedia.bamboofencegate.title=Bamboo Fence Gate
+tropicraft.encyclopedia.bamboofencegate.desc=This bamboo fence gate works fantastic with fences of all types. Like other bamboo blocks, it isn't very strong.
+
+tropicraft.encyclopedia.bamboostick.title=Bamboo Stick
+tropicraft.encyclopedia.bamboostick.desc=A stick made of bamboo. Used in many tropical recipes to replace the use of sticks.
+
+tropicraft.encyclopedia.bamboo_ladder.title=Bamboo Ladder
+tropicraft.encyclopedia.bamboo_ladder.desc=Clunk. Clunk. Clunk. Hear that? That's you, climbing up a ladder made out of bamboo.
+
+tropicraft.encyclopedia.bamboo_crafting_table.title=Bamboo Crafting Table
+tropicraft.encyclopedia.bamboo_crafting_table.desc=The finishing touch for any tropical base of operation.
+
+tropicraft.encyclopedia.bamboo_trapdoor.title=Bamboo Trapdoor
+tropicraft.encyclopedia.bamboo_trapdoor.desc=This bamboo and thatch trapdoor is perfect for separating you from the wilderness. Be careful though, this trapdoor isn't very strong.
+
+tropicraft.encyclopedia.tropiframe.title=Bamboo Item Frame
+tropicraft.encyclopedia.tropiframe.desc=This item frame functions the same way as a vanilla item frame but has a bamboo border.
+
+tropicraft.encyclopedia.chunkohead.title=Chunk O' Head
+tropicraft.encyclopedia.chunkohead.desc=The Easter Island Heads that can occasionally be seen are made up of this rock. It is a holy stone to those who built the Heads, and taking it is considered sacrilege.
+
+tropicraft.encyclopedia.chunkfence.title=Chunk O' Head Fence
+tropicraft.encyclopedia.chunkfence.desc=The Easter Island Heads that can occasionally be seen are made up of this rock. Surround your base with a lovely fence version of the block.
+
+tropicraft.encyclopedia.chunkfencegate.title=Chunk O' Head Fence Gate
+tropicraft.encyclopedia.chunkfencegate.desc=The Easter Island Heads that can occasionally be seen are made up of this rock. This fence gate works wonderfully with all fence types.
+
+tropicraft.encyclopedia.tikitorch.title=Tiki Torches
+tropicraft.encyclopedia.tikitorch.desc=These tall torches are great for lighting up beaches.
+
+tropicraft.encyclopedia.thatchblock.title=Thatch Blocks
+tropicraft.encyclopedia.thatchblock.desc=As easy to craft as it is to break, the thatch block provides another sustainable building material to Tropics. It can be crafted into stairs and slabs.
+
+tropicraft.encyclopedia.thatchdoor.title=Thatch Door
+tropicraft.encyclopedia.thatchdoor.desc=As easy to craft as it is to break, the thatch block provides another sustainable building material to Tropics.
+
+tropicraft.encyclopedia.thatchfence.title=Thatch Fence
+tropicraft.encyclopedia.thatchfence.desc=As easy to craft as it is to break, the thatch block provides another sustainable building material to Tropics.
+
+tropicraft.encyclopedia.thatchfencegate.title=Thatch Fence Gate
+tropicraft.encyclopedia.thatchfencegate.desc=As easy to craft as it is to break, the thatch block provides another sustainable building material to Tropics.
+
+tropicraft.encyclopedia.thatch_trapdoor.title=Thatch Trapdoor
+tropicraft.encyclopedia.thatch_trapdoor.desc=This thatch trapdoor is perfect for separating you from the wilderness. Be careful though, this trapdoor isn't very strong.
+
+# Flowers
+
+tropicraft.encyclopedia.iris.title=Iris
+tropicraft.encyclopedia.iris.desc=These tall purple flowers are quite a sight. They can easily be replanted.
+
+tropicraft.encyclopedia.commelina_diffusa.title=Co. Diffusa
+tropicraft.encyclopedia.commelina_diffusa.desc=Commelina Diffusa adds a pleasant blue to the landscape of the Tropics.
+
+tropicraft.encyclopedia.crocosmia.title=Crocosmia
+tropicraft.encyclopedia.crocosmia.desc=These fiery little flowers are like miniature suns resting on the ground.
+
+tropicraft.encyclopedia.orchid.title=Orchid
+tropicraft.encyclopedia.orchid.desc=Orchids are perhaps the rarest of all the flowers in the Tropics. Their delicate pink and white petals are sure to add an air of sophistication to your home.
+
+tropicraft.encyclopedia.canna.title=Canna
+tropicraft.encyclopedia.canna.desc=This yellow-orange flower blends in well in the tropical realm, complementing the hard-hitting red of the red anthurium.
+
+tropicraft.encyclopedia.anemone.title=Anemone
+tropicraft.encyclopedia.anemone.desc=This bleach white flower adds a nice innocent, calm color to the realm.
+
+tropicraft.encyclopedia.orange_anthurium.title=Anthurium, Orange
+tropicraft.encyclopedia.orange_anthurium.desc=This strong orange colored flower has an red counterpart.
+
+tropicraft.encyclopedia.red_anthurium.title=Anthurium, Red
+tropicraft.encyclopedia.red_anthurium.desc=This strong red colored flower has an orange counterpart.
+
+tropicraft.encyclopedia.magic_mushroom.title=Magic Mushroom
+tropicraft.encyclopedia.magic_mushroom.desc=Found only in the rainforest, these mushrooms are mysterious, need to explore more.
+
+tropicraft.encyclopedia.pathos.title=Pathos
+tropicraft.encyclopedia.pathos.desc=Pathos, in greek, means 'an appeal to emotions'. This plant can only be found in rainforests.
+
+tropicraft.encyclopedia.acai_vine.title=Acai Vine
+tropicraft.encyclopedia.acai_vine.desc=Rotten branches that are growing from the ground that used to grow the acai fruit.
+
+tropicraft.encyclopedia.croton.title=Croton
+tropicraft.encyclopedia.croton.desc=Go ahead and try to figure out what color this is. I DARE you.
+
+tropicraft.encyclopedia.dracaena.title=Dracaena
+tropicraft.encyclopedia.dracaena.desc=This interesting peach and green colored plant can be found only in the rainforest.
+
+tropicraft.encyclopedia.fern.title=Fern
+tropicraft.encyclopedia.fern.desc=Ferns can be found in rainforests throughout the realm.
+
+tropicraft.encyclopedia.foliage.title=Foliage
+tropicraft.encyclopedia.foliage.desc=Common greenery found in the tropics.
+
+tropicraft.encyclopedia.bromeliad.title=Bromeliad
+tropicraft.encyclopedia.bromeliad.desc=This exotic red flower thrives in the thick of rainforests among the tree frogs and moist conditions.
+
+tropicraft.encyclopedia.flowerpot.title=Bamboo Flower Pot
+tropicraft.encyclopedia.flowerpot.desc=This flower pot can be used to beautify any garden by holding any tropical flower, plant, or sapling.
+
+# Shells
+
+tropicraft.encyclopedia.soloshell.title=Solonox Shell
+tropicraft.encyclopedia.soloshell.desc=Named after the creator of Tropicraft's theme song "Trade Winds", the Solonox shell yields a chance of finding a black or white pearl inside, so be on the lookout!
+
+tropicraft.encyclopedia.froxshell.title=Frox Conch
+tropicraft.encyclopedia.froxshell.desc=Created to commemorate the donators of the yearly LoveTropics charity event.
+
+tropicraft.encyclopedia.pabshell.title=Pab Shell
+tropicraft.encyclopedia.pabshell.desc=Named after one of the original modders of tropicraft, Pablomittens, the Pab shell stands as one of the original items that was in tropicraft since v1.0, but was never given a use.
+
+tropicraft.encyclopedia.rubeshell.title=Rube Nautilus
+tropicraft.encyclopedia.rubeshell.desc=Named after one of the current modders of tropicraft, MrRube, the Rube Nautilus was actually made by MrRube before v1.0 of Tropicraft, but was never given a use...until now!
+
+tropicraft.encyclopedia.starfishshell.title=Starfish Shell
+tropicraft.encyclopedia.starfishshell.desc=A starfish-shaped shell that drops when you kill a starfish. Placeable on walls.
+
+tropicraft.encyclopedia.turtleshell.title=Turtle Shell
+tropicraft.encyclopedia.turtleshell.desc=This shell is great for sprucing up your beach bungalow.
+
+tropicraft.encyclopedia.pearlb.title=Pearl, Black
+tropicraft.encyclopedia.pearlb.desc=Has a very high trade value with the Koa tribe; found inside Frox conches on rare occasions.
+
+tropicraft.encyclopedia.pearlw.title=Pearl, White
+tropicraft.encyclopedia.pearlw.desc=Has a moderately high trade value with the Koa tribe; found inside Solonox shells.
+
+# Tropical Music
+
+tropicraft.encyclopedia.easternisles.title=Eastern Isles
+tropicraft.encyclopedia.easternisles.desc=This awesome drum and bass track was produced by Frox. Kick back and enjoy.
+
+tropicraft.encyclopedia.summering.title=Summering
+tropicraft.encyclopedia.summering.desc=Downtempo summery vibes carefully crafted by Billy Christiansen. Pop a squat, craft a piña colada, and listen to this song to enhance your tropical relaxation experience.
+
+tropicraft.encyclopedia.thetribe.title=The Tribe
+tropicraft.encyclopedia.thetribe.desc=Upbeat tropical vibes brought to you by Emile van Krieken. Listen to this song while venturing through a Koa Village and you may find yourself a favorite among the villagers.
+
+tropicraft.encyclopedia.tradewinds.title=Tradewinds
+tropicraft.encyclopedia.tradewinds.desc=A chillout song produced by Frox. At 136 bpm, Trade winds is sure to help you relax during your tropical vacation.
+
+tropicraft.encyclopedia.lowtide.title=Low Tide
+tropicraft.encyclopedia.lowtide.desc=Produced by Punchaface, this chilled electronica track has a heavy bassline-driving melody and is sure to brighten any day in the tropics.
+
+tropicraft.encyclopedia.buriedtreasure.title=Buried Treasure
+tropicraft.encyclopedia.buriedtreasure.desc=Don't mind this place holder text.
+
+# Miscellaneous
+
+tropicraft.encyclopedia.nigel.title=Nigel Winthorpe
+tropicraft.encyclopedia.nigel.desc=The person who's journal was used to write the Encyclopedia Tropica. He was the first to discover the Tropics after finding a strange staff in an unknown jungle temple. While his current were abouts are unknown one thing is certain, he sure won't needing this no more.
+
+tropicraft.encyclopedia.coconutbomb.title=Coconut Bomb
+tropicraft.encyclopedia.coconutbomb.desc=This explosive coconut is great for taking out anyone, or anything, that tries to get in your way.
+
+#tropicraft.encyclopedia.curare.title=Curare
+#tropicraft.encyclopedia.curare.desc=Mix various types of flowers together to make different types of curare, which can be used to make darts with all sorts of potion effects.
+
+#tropicraft.encyclopedia.curarebowl.title=Curare Bowl
+#tropicraft.encyclopedia.curarebowl.desc=Mix various types of flowers in this bowl to create different types of curare, which can be used to make darts with all sorts of potion effects.
+
+tropicraft.encyclopedia.dart.title=Dart
+tropicraft.encyclopedia.dart.desc=This neurotoxin-laced dart is capable of stopping most mobs in their tracks. Be careful though, the effect is only temporary. Darts can have varying potion effects associated with them. Now neurotoxin-free!
+
+tropicraft.encyclopedia.fertilizer.title=Fertilizer
+tropicraft.encyclopedia.fertilizer.desc=Fertilizer functions similar to bone meal, but also grows tropical flowers and fruit plants like pineapples.
+
+tropicraft.encyclopedia.frogskin.title=Poison Frog Skin
+tropicraft.encyclopedia.frogskin.desc=Poisonous tree frogs secrete a paralyzing toxin though their skin.
+
+tropicraft.encyclopedia.iggyscale.title=Iguana Scale
+tropicraft.encyclopedia.iggyscale.desc=The adorable iguanas that inhabit the tropics drop scales. What is unique about these scales is that they are fire retardant. Wearing armor made of scales will allow you venture into some pretty hot places.
+
+tropicraft.encyclopedia.iguana_leather.title=Iguana Leather
+tropicraft.encyclopedia.iguana_leather.desc=The adorable iguanas that inhabit the tropics also drop a green leather. This leather functions just like regular leather and can be used interchangeably. You can also make bongo drums with iguana leather!
+
+#tropicraft.encyclopedia.koachest.title=Koa Chest
+#tropicraft.encyclopedia.koachest.desc=A chest that spawns Koa. Use it to populate a village or bungalow!
+
+#tropicraft.encyclopedia.leafball.title=Leaf Ball
+#tropicraft.encyclopedia.leafball.desc=Leaf balls can only be obtained via a trade with a Koa tribe member. When you throw a leaf ball, as soon as it makes contact it disperses into many leaves.
+
+tropicraft.encyclopedia.sifter.title=Sifter
+tropicraft.encyclopedia.sifter.desc=Right click a sifter with a any kind of sand, wait about ten seconds, and out will pop up to three items. It could be rare shells, gold nuggets, or more!
+
+#tropicraft.encyclopedia.snaretrap.title=Snare Trap
+#tropicraft.encyclopedia.snaretrap.desc=This device is used for trapping mobs and players, rendering them immobile.
+
+tropicraft.encyclopedia.section.tribes.title=Tribes
+tropicraft.encyclopedia.section.mobs.land.title=Land Animals
+tropicraft.encyclopedia.section.mobs.water.title=Under Da Sea
+tropicraft.encyclopedia.ltinfo.title=What is Love Tropics?
+tropicraft.encyclopedia.ltinfo.desc=Love Tropics is a yearly charity stream organized by Team Tropicraft to support tropical areas affected by natural disasters. Last year (2018), we raised over $35,000 for Team Rubicon!\n\nEach year, we put the name of everyone who donated in this book to be immortalized for their generosity. Join us next year for a great time with your favorite Mojangstas, streamers, YouTubers, and mod developers!\n\nGo to lovetropics.org for more info.
+tropicraft.encyclopedia.lt18.title=Love Tropics 2018
+
+tropicraft.donations.donation=%s donated %s!

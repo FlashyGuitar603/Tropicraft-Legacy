@@ -18,6 +18,7 @@ tropicraft.biome.tc_tropics_beach.name=Tropics Beach
 tropicraft.biome.tc_tropics_lake.name=Tropics Lake
 
 # Block localizations
+
 tile.tropicraft.air_compressor.name=Air Compressor
 tile.tropicraft.bamboo_chest.name=Bamboo Chest
 tile.tropicraft.bamboo_chest_large.name=Large Bamboo Chest
@@ -121,6 +122,7 @@ tile.tropicraft.tiki_torch.name=Tiki Torch
 tile.tropicraft.zirconium_block.name=Zirconium Block
 
 # Item localizations
+
 item.tropicraft.axe_eudialyte.name=Eudialyte Axe
 item.tropicraft.axe_souzium.name=Souzium Aqua Axe
 item.tropicraft.axe_zircon.name=Zircon Axe
@@ -308,32 +310,37 @@ item.tropicraft.zircon.name=Zircon Crystal
 item.tropicraft.zirconium.name=Zirconium Crystal
 
 # Feesh
-item.tropicraft.riverfish.piranha.cooked.name=Cooked Piranha
-item.tropicraft.riverfish.piranha.raw.name=Raw Piranha
-item.tropicraft.riverfish.sardine.cooked.name=Cooked Sardine
-item.tropicraft.riverfish.sardine.raw.name=Raw Sardine
-item.tropicraft.tropicalfish.0.cooked.name=Cooked Clownfish
+
 item.tropicraft.tropicalfish.0.raw.name=Raw Clownfish
-item.tropicraft.tropicalfish.1.cooked.name=Cooked Queen Angelfish
 item.tropicraft.tropicalfish.1.raw.name=Raw Queen Angelfish
-item.tropicraft.tropicalfish.2.cooked.name=Cooked Yellow Tang
 item.tropicraft.tropicalfish.2.raw.name=Raw Yellow Tang
-item.tropicraft.tropicalfish.3.cooked.name=Cooked Butterflyfish
 item.tropicraft.tropicalfish.3.raw.name=Raw Butterflyfish
-item.tropicraft.tropicalfish.4.cooked.name=Cooked Geophagus Surinamensis
 item.tropicraft.tropicalfish.4.raw.name=Raw Geophagus Surinamensis
-item.tropicraft.tropicalfish.5.cooked.name=Cooked Betta Fish
 item.tropicraft.tropicalfish.5.raw.name=Raw Betta Fish
-item.tropicraft.tropicalfish.6.cooked.name=Cooked Regal Tang
 item.tropicraft.tropicalfish.6.raw.name=Raw Regal Tang
-item.tropicraft.tropicalfish.7.cooked.name=Cooked Royal Gamma
 item.tropicraft.tropicalfish.7.raw.name=Raw Royal Gamma
 
+item.tropicraft.tropicalfish.0.cooked.name=Cooked Clownfish
+item.tropicraft.tropicalfish.1.cooked.name=Cooked Queen Angelfish
+item.tropicraft.tropicalfish.2.cooked.name=Cooked Yellow Tang
+item.tropicraft.tropicalfish.3.cooked.name=Cooked Butterflyfish
+item.tropicraft.tropicalfish.4.cooked.name=Cooked Geophagus Surinamensis
+item.tropicraft.tropicalfish.5.cooked.name=Cooked Betta Fish
+item.tropicraft.tropicalfish.6.cooked.name=Cooked Regal Tang
+item.tropicraft.tropicalfish.7.cooked.name=Cooked Royal Gamma
+
+item.tropicraft.riverfish.piranha.raw.name=Raw Piranha
+item.tropicraft.riverfish.sardine.raw.name=Raw Sardine
+item.tropicraft.riverfish.piranha.cooked.name=Cooked Piranha
+item.tropicraft.riverfish.sardine.cooked.name=Cooked Sardine
+
 # Word localizations
+
 tropicraft.raw=Raw
 tropicraft.cooked=Cooked
 
 # Cocktail localizations
+
 tropicraft.drink.lemonade.name=Lemonade
 tropicraft.drink.limeade.name=Limeade
 tropicraft.drink.orangeade.name=Orangeade
@@ -345,6 +352,7 @@ tropicraft.drink.mai_tai.name=Mai Tai
 tropicraft.drink.hot_cocoa.name=Hot Cocoa
 
 # Record localizations
+
 item.tropicraft.buried_treasure.name=Buried Treasure
 item.tropicraft.eastern_isles.name=Eastern Isles
 item.tropicraft.low_tide.name=Low Tide
@@ -353,6 +361,7 @@ item.tropicraft.the_tribe.name=The Tribe
 item.tropicraft.trade_winds.name=Trade Winds
 
 # Mask localizations
+
 item.tropicraft.mask_ashen_mask1.name=Ashen Mask
 item.tropicraft.mask_ashen_mask2.name=Ashen Mask
 item.tropicraft.mask_ashen_mask3.name=Ashen Mask
@@ -368,6 +377,7 @@ item.tropicraft.mask_square_zord.name=Square Zord
 item.tropicraft.mask_the_brain.name=The Brain
 
 # Enchantments
+
 enchantment.bane_of_reptiles=Bane of Reptiles
 enchantment.beach_combing=Beach Combing
 enchantment.fruit_ninja=Fruit Ninja
@@ -375,9 +385,11 @@ enchantment.midas_touch=Midas Touch
 enchantment.scuba_steve=Scuba Steve
 
 # Menu localizations
+
 itemGroup.tropicraft=Tropicraft Legacy
 
 # Config localizations
+
 tropicraft.config.entity.title=Entity Settings
 tropicraft.config.generation.title=Worldgen Settings
 tropicraft.config.misc.title=Misc Settings
@@ -386,6 +398,7 @@ tropicraft.config.title=Tropicraft Configuration
 tropicraft.config.~lovetropics.title=Donation Settings
 
 # Entity localizations
+
 entity.tropicraft.ashen.name=Ashen
 entity.tropicraft.beach_chair.name=Beach Chair
 entity.tropicraft.beach_float.name=Beach Float
@@ -433,6 +446,7 @@ entity.tropicraft.turtle.name=Sea Turtle
 entity.tropicraft.yellowfrog.name=Poisonous Yellow Tree Frog
 
 # Achievement localizations
+
 achievement.tc=Tropicraft Legacy
 achievement.tc.desc=Welcome to paradise!
 achievement.tc_craft_pina_colada=If you like piña coladas...
@@ -443,7 +457,7 @@ achievement.tc_craft_scale_armor.name=Captain Cactus over here!
 achievement.tc_craft_scale_armor.desc=There I say splendid!
 
 #Gui localizations
-#gui.tropicraft.amtRefined=Percentage Refined
+
 gui.tropicraft.currentDepth=Depth
 gui.tropicraft.maxDepth=Max
 gui.tropicraft.temperature=Temp
@@ -464,18 +478,22 @@ tropicraft.gui.suit.type=Suit Type: %s
 tropicraft.gui.suit.yellow=Yellow
 
 #Death message localization
+
 death.attack.dart=%s was pin cushioned to death
 
 # Fluid localizations
+
 fluid.tropicraft.water=Tropics Water
 fluid.tropicraft.portal=Tropics Portal
 
 # Misc localizations
+
 tropicraft.coconutBombWarning=You do not have permission to use coconut bombs :) Check the coconut bomb whitelist in the Tropicraft config file!
 portalenchanter.type_0=Mode: Portal Build Mode
 portalenchanter.type_1=Mode: Instant Teleport Mode
 
 # Koa Trading
+
 entity.tropicraft.koa.trade.give=Have some trimix gas!
 entity.tropicraft.koa.trade.not_enough_time=You still need %s more minutes of dive time! No trimix gas for you!
 entity.tropicraft.koa.trade.cooldown=Someone already got trimix gas from me recently
@@ -490,6 +508,7 @@ entity.tropicraft.koa.female.fisherman.name=Female Koa Fisherman
 tropicraft.chat.teleport.unable=You should drink a piña colada before teleporting!
 
 # Loading Screen
+
 tropicraft.loading.title.greeting=Drifting into the Tropics...
 tropicraft.loading.title.farewell=Wish you were here...
 
@@ -506,6 +525,7 @@ tropicraft.loading.misc.1=Don't forget to hold your breath!
 tropicraft.loading.misc.2=Prepare to make a splash
 
 # Tooltips
+
 tropicraft.tooltip.air_compressor=Place one or two empty scuba tanks in the compressor to fill them with air!
 tropicraft.tooltip.drink_mixer=Place two drink ingredients on the mixer, then place an empty mug on the base, then ???, then enjoy!
 tropicraft.tooltip.sifter=Place any type of tropics or regular sand in the sifter. What treasures are hidden inside?
@@ -520,11 +540,13 @@ dart.tropicraft:hunger.name=Hunger
 dart.tropicraft:weakness.name=Weakness
 
 # Book text
+
 tropicraft.book.toc.title=Table of Contents
 tropicraft.book.bookmarks.title=Bookmarks
 tropicraft.book.bookmarks.tooltip=View Bookmarks
 
 # Encyclopedia Sections
+
 tropicraft.encyclopedia.section.foods.title=Tropical Food
 tropicraft.encyclopedia.section.drinks.title=Tropical Drinks
 tropicraft.encyclopedia.section.world.title=Tropics World

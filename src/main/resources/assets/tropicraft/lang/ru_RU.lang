@@ -1,5 +1,9 @@
 #PARSE_ESCAPES
 
+# Resource Pack
+
+resourcePack.tropicraft.texture_update.description=A sneak-peak! By Hexablu and Endergized.
+
 # Biomes
 
 tropicraft.biome.tropics_ocean.name=Tropics Ocean
@@ -14,6 +18,13 @@ tropicraft.biome.tc_tropics_beach.name=Tropics Beach
 tropicraft.biome.tc_tropics_lake.name=Tropics Lake
 
 # Block localizations
+
+tile.tropicraft.bamboo_crafting_table.name=Bamboo Crafting Table
+tile.tropicraft.donation.tooltip1=Currently out of order :(
+tile.tropicraft.fire_pit.name=Fire Pit
+tile.tropicraft.pineapple_cake.name=Pineapple Cake
+tile.tropicraft.zirconium_block.name=Zirconium Block
+
 tile.tropicraft.chunk.name=Застывшая магма
 tile.tropicraft.chunk_stairs.name=Ступеньки из застывшей магмы
 tile.tropicraft.ore.eudialyte.name=Эвдиалитовая руда
@@ -112,6 +123,27 @@ tile.tropicraft.donation.name=Напоминающий о донатах спа�
 tile.tropicraft.donation.tooltip=Выстреливает фейерверки при получении доната!
 
 # Item localizations
+
+item.tropicraft.axe_souzium.name=Souzium Aqua Axe
+item.tropicraft.axe_zirconium.name=Zirconium Axe
+item.tropicraft.bamboo_trapdoor.name=Bamboo Trapdoor
+item.tropicraft.dart.name=Dart
+item.tropicraft.dart_gun.name=Dart Gun
+item.tropicraft.hoe_souzium.name=Souzium Aqua Hoe
+item.tropicraft.hoe_zirconium.name=Zirconium Hoe
+item.tropicraft.mahogany_door.name=Mahogany Door
+item.tropicraft.mahogany_trapdoor.name=Mahogany Trapdoor
+item.tropicraft.palm_door.name=Palm Door
+item.tropicraft.palm_trapdoor.name=Palm Trapdoor
+item.tropicraft.pickaxe_souzium.name=Souzium Aqua Pickaxe
+item.tropicraft.pickaxe_zirconium.name=Zirconium Pickaxe
+item.tropicraft.shovel_souzium.name=Souzium Aqua Shovel
+item.tropicraft.shovel_zirconium.name=Zirconium Shovel
+item.tropicraft.sword_zirconium.name=Zirconium Spear
+item.tropicraft.thatch_door.name=Thatch Door
+item.tropicraft.thatch_trapdoor.name=Thatch Trapdoor
+item.tropicraft.zirconium.name=Zirconium Crystal
+
 item.tropicraft.eudialyte.name=Эвдиалитовый осколок
 item.tropicraft.zircon.name=Цирконовый кристалл
 item.tropicraft.azurite.name=Азуритовый кристалл
@@ -283,7 +315,9 @@ item.tropicraft.nori_raw.name=Сырой нори
 item.tropicraft.nori_toasted.name=Поджаренный нори
 item.tropicraft.ray_raw.name=Сырой пятнистый орёл
 item.tropicraft.ray_cooked.name=Приготовленный пятнистый орёл
+
 # Feesh
+
 item.tropicraft.tropicalfish.0.raw.name=Сырая Рыба-Клоун
 item.tropicraft.tropicalfish.1.raw.name=Сырая Ангел-Королева
 item.tropicraft.tropicalfish.2.raw.name=Сырой Жёлтный хвостовик
@@ -308,10 +342,12 @@ item.tropicraft.riverfish.piranha.cooked.name=Приготовленная пи�
 item.tropicraft.riverfish.sardine.cooked.name=Приготовленная сардина
 
 # Word localizations
+
 tropicraft.raw=Сырая
 tropicraft.cooked=Приготовленная 
 
 # Cocktail localizations
+
 tropicraft.drink.lemonade.name=Лимонад
 tropicraft.drink.limeade.name=Лаймад
 tropicraft.drink.orangeade.name=Оранжад
@@ -321,7 +357,10 @@ tropicraft.drink.pina_colada.name=Пина Колада
 tropicraft.drink.black_coffee.name=Чёрный кофе
 tropicraft.drink.mai_tai.name=Майтай
 
+tropicraft.drink.hot_cocoa.name=Hot Cocoa
+
 # Record localizations
+
 item.tropicraft.buried_treasure.name=Спрятанное сокровище
 item.tropicraft.eastern_isles.name=Восточные острова
 item.tropicraft.low_tide.name=Отлив
@@ -330,6 +369,7 @@ item.tropicraft.the_tribe.name=Племя
 item.tropicraft.trade_winds.name=Северо-восточные ветра
 
 # Mask localizations
+
 item.tropicraft.mask_square_zord.name=Клетчатая маска
 item.tropicraft.mask_horn_monkey.name=Маска обезьяны
 item.tropicraft.mask_oblongatron.name=Oblongatron
@@ -345,15 +385,36 @@ item.tropicraft.mask_ashen_mask4.name=Маска пигмея
 item.tropicraft.mask_ashen_mask5.name=Маска пигмея
 
 # Menu localizations
+
 itemGroup.tropicraft=Tropicraft
 
 # Config localizations
+
 tropicraft.config.title=Tropicraft Configuration
 tropicraft.config.generation.title=Worldgen Settings
 tropicraft.config.misc.title=Misc Settings
 tropicraft.config.entity.title=Entity Settings
 
+tropicraft.config.modules.title=Compatibility Modules
+tropicraft.config.~lovetropics.title=Donation Settings
+
 # Entity localizations
+
+entity.tropicraft.beach_chair.name=Beach Chair
+entity.tropicraft.beach_float.name=Beach Float
+entity.tropicraft.beach_umbrella.name=Beach Umbrella
+entity.tropicraft.failgull.name=Failgull
+entity.tropicraft.fish.name=Tropical Fish
+entity.tropicraft.lavaball.name=Lava Ball
+entity.tropicraft.lost_mask.name=Lost Mask
+entity.tropicraft.mow.name=Man O' War
+entity.tropicraft.poison_bolt.name=Poison Bolt
+entity.tropicraft.sea_turtle_egg.name=Sea Turtle Egg
+entity.tropicraft.seaurchinegg.name=Sea Urchin Egg
+entity.tropicraft.starfishegg.name=Starfish Egg
+entity.tropicraft.treefrog.name=Tree Frog
+entity.tropicraft.tropispideregg.name=Tropical Spider Egg
+
 entity.tropicraft.iguana.name=Игуана
 entity.tropicraft.tropiskelly.name=Тропический скелет
 entity.tropicraft.eih.name=Каменная статуя Моаи
@@ -387,12 +448,14 @@ entity.tropicraft.tropicalfish.6.name=Рыба-хирург
 entity.tropicraft.tropicalfish.7.name=Королевская гамма
 
 # Achievement localizations
+
 achievement.tc_craft_pina_colada=Если вам нравится Пина Колада...
 achievement.tc_craft_pina_colada.desc=(А кому нет?)
 achievement.tc_drink_pina_colada=Если вы любите промокать под дождём
 achievement.tc_drink_pina_colada.desc=(Вы забыли свой зонт?)
 
 #Gui localizations
+
 tropicraft.gui.air.type=Тип воздуха: %s
 tropicraft.gui.air.regular=Обычный
 tropicraft.gui.air.trimix=Тримикс
@@ -411,18 +474,20 @@ gui.tropicraft.temperature=Темп.
 gui.tropicraft.currentDepth=Глубина
 gui.tropicraft.maxDepth=Макс.
 gui.tropicraft.timeRemaining=Оставшееся время
-gui.tropicraft.amtRefined=Прогресс
 
 # Fluid localizations
+
 fluid.tropicraft.water=Тропическая вода
 fluid.tropicraft.portal=Портал в Тропики
 
 # Misc localizations
+
 tropicraft.coconutBombWarning=У вас нет разрешения на использование кокосовых бомб :) Проверьте белый список кокосовых бомб в конфигурационном файле Tropicraft!
 portalenchanter.type_0=Режим: построение портала
 portalenchanter.type_1=Режим: мгновенный телепорт
 
 # Koa Trading
+
 entity.tropicraft.koa.trade.give=Есть немного Тримикса!
 entity.tropicraft.koa.trade.not_enough_time=При отсутствии Тримикса у вас нет больше возможности погружаться на морское дно!
 entity.tropicraft.koa.trade.cooldown=Недавно кто-то купил у меня эту смесь.
@@ -434,8 +499,11 @@ entity.tropicraft.koa.male.fisherman.name=Мужчина племени Koa(ры
 entity.tropicraft.koa.female.fisherman.name=Женщина племени Koa(рыбак)
 
 # Misc chat notifications
+
 tropicraft.chat.teleport.unable=Вы должны выпить Пина Коладу перед телепортацией!
+
 # Loading Screen
+
 tropicraft.loading.title.greeting=Дрейфуем в Тропики...
 tropicraft.loading.title.farewell=Жаль, что тебя здесь нет...
 
@@ -452,16 +520,28 @@ tropicraft.loading.misc.1=Не забудьте задержать дыхани�
 tropicraft.loading.misc.2=И приготовьтесь к брызгам воды!
 
 # Tooltips
+
 tropicraft.tooltip.air_compressor=Поместите один или два балона в компрессор, чтобы заполнить их воздухом!
 tropicraft.tooltip.drink_mixer=Поместите ингридиенты напитка в миксер и поставте бамбуковую чашку на дно, а затем НАСЛАЖДАЙТЕСЬ!
 tropicraft.tooltip.sifter=Поместите любой тип песка в Просеиватель. Какие сокровища спрятаны внутри?
 
+dart.tropicraft:prefix.name=Dart of
+dart.tropicraft:paralyze.name=Paralysis
+dart.tropicraft:poison.name=Poison
+dart.tropicraft:moveSlowdown.name=Slow Movement
+dart.tropicraft:harm.name=Harm
+dart.tropicraft:confusion.name=Confusion
+dart.tropicraft:hunger.name=Hunger
+dart.tropicraft:weakness.name=Weakness
+
 # Book text
+
 tropicraft.book.toc.title=Оглавление
 tropicraft.book.bookmarks.title=Закладки
 tropicraft.book.bookmarks.tooltip=Просмотр Закладок
 
 # Encyclopedia Sections
+
 tropicraft.encyclopedia.section.foods.title=Тропическая еда
 tropicraft.encyclopedia.section.drinks.title=Тропические напитки
 tropicraft.encyclopedia.section.world.title=Исследование Тропиков
@@ -542,7 +622,7 @@ tropicraft.encyclopedia.blackcoffee.title=Black Coffee
 tropicraft.encyclopedia.blackcoffee.desc=Who doesn't like coffee? Brew yourself a nice cup o' joe and watch the sunrise from your bungalow.
 
 tropicraft.encyclopedia.volcanicsand.title=Volcanic Sands
-tropicraft.encyclopedia.volcanicsand.desc = Tread lightly on this sand...or don't at all. If you aren't wearing any scale or fire armor, you better be ready to run reaaaaaaaaally fast.
+tropicraft.encyclopedia.volcanicsand.desc= Tread lightly on this sand...or don't at all. If you aren't wearing any scale or fire armor, you better be ready to run reaaaaaaaaally fast.
 
 #tropicraft.encyclopedia.blowgun.title=Blow Gun
 #tropicraft.encyclopedia.blowgun.desc=This tube of bamboo is used to shoot neurotoxin-laced darts at your pray. You will be surprised how a far and fast you can shoot a dart with a hefty blow.
@@ -584,7 +664,7 @@ tropicraft.encyclopedia.coral.title=Coral
 tropicraft.encyclopedia.coral.desc=While these bioluminescent lifeforms are at home in the ocean, they are well suited for lighting up an aquarium.
 
 tropicraft.encyclopedia.coralsand.title=Coral Sands
-coralsand.dec = It is rumored that hundreds of years ago, these coral sands were washed ashore during a tornado.
+tropicraft.encyclopedia.coralsand.desc=It is rumored that hundreds of years ago, these coral sands were washed ashore during a tornado.
 
 tropicraft.encyclopedia.crocosmia.title=Crocosmia
 tropicraft.encyclopedia.crocosmia.desc=These fiery little flowers are like miniature suns resting on the ground. 
@@ -654,9 +734,6 @@ tropicraft.encyclopedia.froglegscooked.desc=This rare delicacy is the result of 
 
 tropicraft.encyclopedia.frogskin.title=Poison Frog Skin
 tropicraft.encyclopedia.frogskin.desc=Poisonous tree frogs secrete a paralyzing toxin though their skin. By combining this with darts, you can briefly paralyze an enemy. 
-
-tropicraft.encyclopedia.froxconch.title=Frox Conch
-tropicraft.encyclopedia.froxconch.desc=Named after the creator of Tropicraft's theme song "Trade Winds", the Solonox shell yields a chance of finding a black or white pearl inside, so be on the lookout!
 
 tropicraft.encyclopedia.grapefruit.title=Grapefruit
 tropicraft.encyclopedia.grapefruit.desc=Tasty grapefruit citrus fruit that drops from Grapefruit leaves.
@@ -728,7 +805,7 @@ tropicraft.encyclopedia.marlincooked.title=Seared Marlin
 tropicraft.encyclopedia.marlincooked.desc=Mmmm. Yummy in my tummy. This is what you get when you cook Fresh Marlin.
 
 tropicraft.encyclopedia.mineralsand.title=Mineral Sands
-mineralsand.dec = This special type of sand is rumored to contain various minerals. Their use is currently unknown.
+tropicraft.encyclopedia.mineralsand.desc= This special type of sand is rumored to contain various minerals. Their use is currently unknown.
 
 tropicraft.encyclopedia.mixer.title=EIH Mixer
 tropicraft.encyclopedia.mixer.desc=Mix various types of fruits with this to get different cocktails. You could have your own bar!
@@ -790,9 +867,6 @@ tropicraft.encyclopedia.purifiedsand.desc=Purified sand makes up the majority of
 tropicraft.encyclopedia.reeds.title=Reeds
 tropicraft.encyclopedia.reeds.desc=In the Tropics, sugar cane serves a new purpose: thatching.
 
-tropicraft.encyclopedia.rubenautilus.title=Rube Nautilus
-tropicraft.encyclopedia.rubenautilus.desc=Named after one of the current modders of tropicraft, MrRube, the Rube Nautilus was actually made by MrRube before v1.0 of Tropicraft, but was never given a use...until now!
-
 tropicraft.encyclopedia.scaleboots.title=Scale Boots
 tropicraft.encyclopedia.scaleboots.desc=Boots made out of iguana scales that provide fire resistance for whomever wears them
 
@@ -819,9 +893,6 @@ tropicraft.encyclopedia.sifter.desc=Right click a sifter with a any kind of sand
 
 #tropicraft.encyclopedia.snorkel.title=Snorkel
 #tropicraft.encyclopedia.snorkel.desc=With this you can dive deep into the crystal-clear blue waters of the tropical realm without fear of drowning! You can stay under water four times as long when wearing a snorkel!
-
-tropicraft.encyclopedia.solonoxshell.title=Solonox Shell
-tropicraft.encyclopedia.solonoxshell.desc=Named after a nickname of the creator of Tropicraft's theme song "Trade Winds", the Solonox shell yields a chance of finding a black or white pearl inside, so be on the lookout!
 
 tropicraft.encyclopedia.starfishshell.title=Starfish Shell
 tropicraft.encyclopedia.starfishshell.desc=A starfish-shaped shell that drops when you kill a starfish. Placeable on walls.
@@ -909,3 +980,90 @@ tropicraft.encyclopedia.koa.fisherman.desc=A friendly Koa, prefers to fish anyth
 
 tropicraft.encyclopedia.koa.hunter.title=Koa Hunter
 tropicraft.encyclopedia.koa.hunter.desc=A Koa always looking for their next great hunt on land, will take pearls for various land meats and materials. Right click with dive computer to try to receive trimix.
+
+enchantment.bane_of_reptiles=Bane of Reptiles
+enchantment.beach_combing=Beach Combing
+enchantment.fruit_ninja=Fruit Ninja
+enchantment.midas_touch=Midas Touch
+enchantment.scuba_steve=Scuba Steve
+
+achievement.tc=Tropicraft Legacy
+achievement.tc.desc=Welcome to paradise!
+achievement.tc_craft_scale_armor.name=Captain Cactus over here!
+achievement.tc_craft_scale_armor.desc=There I say splendid!
+
+death.attack.dart=%s was pin cushioned to death
+
+tropicraft.encyclopedia.section.tribes.title=Tribes
+tropicraft.encyclopedia.section.mobs.land.title=Land Animals
+tropicraft.encyclopedia.section.mobs.water.title=Under Da Sea
+tropicraft.encyclopedia.ltinfo.title=What is Love Tropics?
+tropicraft.encyclopedia.ltinfo.desc=Love Tropics is a yearly charity stream organized by Team Tropicraft to support tropical areas affected by natural disasters. Last year (2018), we raised over $35,000 for Team Rubicon!\n\nEach year, we put the name of everyone who donated in this book to be immortalized for their generosity. Join us next year for a great time with your favorite Mojangstas, streamers, YouTubers, and mod developers!\n\nGo to lovetropics.org for more info.
+tropicraft.encyclopedia.lt18.title=Love Tropics 2018
+tropicraft.encyclopedia.hotcocoa.title=Hot Cocoa
+tropicraft.encyclopedia.hotcocoa.desc=Don't mind this place holder.
+tropicraft.encyclopedia.zirconium.title=Zirconium
+tropicraft.encyclopedia.zirconium.desc=This rare crystal, when combined with azurite, is rumored to unlock ancient powers. It also can be crafted to make tools of mystical strength!
+tropicraft.encyclopedia.ashen.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.iguana.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.treefrog.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.eih.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.monkey.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.tropicreeper.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.tropiskelly.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.failgull.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.tropispider.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.starfish.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.marlin.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.fish.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.turtle.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.mow.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.eagleray.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.seaurchin.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.piranha.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.sardine.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.dolphin.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.seahorse.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.hammerhead.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.dart_gun.title=Dart Gun
+tropicraft.encyclopedia.dart_gun.desc=This tube of bamboo is used to shoot neurotoxin-laced darts at your pray. You will be surprised how a far and fast you can shoot a dart with a hefty blow. Neurotoxins not included.
+tropicraft.encyclopedia.hoesouzium.title=Souzium Aqua Hoe
+tropicraft.encyclopedia.hoesouzium.desc=Hoe constructed of an unknown material that mines faster while underwater, but slower above water.
+tropicraft.encyclopedia.pickaxesouzium.title=Souzium Aqua Pickaxe
+tropicraft.encyclopedia.pickaxesouzium.desc=Pickaxe constructed of an unknown material that mines faster while underwater, but slower above water.
+tropicraft.encyclopedia.shovelsouzium.title=Souzium Aqua Shovel
+tropicraft.encyclopedia.shovelsouzium.desc=Shovel constructed of an unknown material that mines faster while underwater, but slower above water.
+tropicraft.encyclopedia.axesouzium.title=Souzium Aqua Axe
+tropicraft.encyclopedia.axesouzium.desc=Axe constructed of an unknown material that mines faster while underwater, but slower above water.
+tropicraft.encyclopedia.mahoganysapling.title=Mahogany Saplings
+tropicraft.encyclopedia.mahoganysapling.desc=Grows into imposing tall trees with large leaf canopies.
+tropicraft.encyclopedia.palmdoor.title=Palm Door
+tropicraft.encyclopedia.palmdoor.desc=A sturdy wooden door great for keeping the bad things out.
+tropicraft.encyclopedia.palm_trapdoor.title=Palm Trapdoor
+tropicraft.encyclopedia.palm_trapdoor.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.mahoganyplanks.title=Mahogany Planks
+tropicraft.encyclopedia.mahoganyplanks.desc=Mahogany planks come from mahogany wood which comes from mahogany trees!
+tropicraft.encyclopedia.mahoganydoor.title=Mahogany Door
+tropicraft.encyclopedia.mahoganydoor.desc=A sturdy wooden door great for keeping the bad things out.
+tropicraft.encyclopedia.mahogany_trapdoor.title=Mahogany Trapdoor
+tropicraft.encyclopedia.mahogany_trapdoor.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.bamboo_crafting_table.title=Bamboo Crafting Table
+tropicraft.encyclopedia.bamboo_crafting_table.desc=The finishing touch for any tropical base of operation.
+tropicraft.encyclopedia.bamboo_trapdoor.title=Bamboo Trapdoor
+tropicraft.encyclopedia.bamboo_trapdoor.desc=This bamboo and thatch trapdoor is perfect for separating you from the wilderness. Be careful though, this trapdoor isn't very strong.
+tropicraft.encyclopedia.thatchdoor.title=Thatch Door
+tropicraft.encyclopedia.thatchdoor.desc=As easy to craft as it is to break, the thatch block provides another sustainable building material to Tropics.
+tropicraft.encyclopedia.thatch_trapdoor.title=Thatch Trapdoor
+tropicraft.encyclopedia.thatch_trapdoor.desc=This thatch trapdoor is perfect for separating you from the wilderness. Be careful though, this trapdoor isn't very strong.
+tropicraft.encyclopedia.soloshell.title=Solonox Shell
+tropicraft.encyclopedia.soloshell.desc=Named after the creator of Tropicraft's theme song "Trade Winds", the Solonox shell yields a chance of finding a black or white pearl inside, so be on the lookout!
+tropicraft.encyclopedia.froxshell.title=Frox Conch
+tropicraft.encyclopedia.froxshell.desc=Created to commemorate the donators of the yearly LoveTropics charity event.
+tropicraft.encyclopedia.rubeshell.title=Rube Nautilus
+tropicraft.encyclopedia.rubeshell.desc=Named after one of the current modders of tropicraft, MrRube, the Rube Nautilus was actually made by MrRube before v1.0 of Tropicraft, but was never given a use...until now!
+tropicraft.encyclopedia.buriedtreasure.title=Buried Treasure
+tropicraft.encyclopedia.buriedtreasure.desc=Don't mind this place holder text.
+tropicraft.encyclopedia.nigel.title=Nigel Winthorpe
+tropicraft.encyclopedia.nigel.desc=The person who's journal was used to write the Encyclopedia Tropica. He was the first to discover the Tropics after finding a strange staff in an unknown jungle temple. While his current were abouts are unknown one thing is certain, he sure won't needing this no more.
+tropicraft.encyclopedia.dart.title=Dart
+tropicraft.encyclopedia.dart.desc=This neurotoxin-laced dart is capable of stopping most mobs in their tracks. Be careful though, the effect is only temporary. Darts can have varying potion effects associated with them. Now neurotoxin-free!
