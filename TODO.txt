@@ -28,7 +28,7 @@
 - Fix Koa Fisherman being able to hook other entities and breaking their AI
 - Fix Koa Fisherman not being able to place fishing loot in the first half of double bamboo chests
 - Fix Koa Hunter AI not being able to shoot darts with the dart gun
-- Fix lighting on thatch roofing
+- Fix lighting on thatch roofing (optifine bug)
 - Fix massive lag spike upon trying to cover up a volcano
 - Fix miss matched block blast resistance for Chunk Slab and all fences
 - Fix multimob's dummy mob spawning all over the place in the tropics
@@ -75,6 +75,7 @@
 
 ## TODO ##
 
+- Revise tiki torch placement and break logic
 - Add a config option to increase or decrease gen rates for overworld pineapples
 - Add compatibility with Future MC's stone cutter and flower types
 - Add crafttwweaker support for the Drink Mixer
