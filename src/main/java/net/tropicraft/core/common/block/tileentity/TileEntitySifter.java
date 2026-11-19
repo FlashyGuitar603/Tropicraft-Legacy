@@ -1,6 +1,5 @@
 package net.tropicraft.core.common.block.tileentity;
 
-import java.util.List;
 import java.util.Random;
 
 import javax.annotation.Nonnull;
@@ -9,6 +8,8 @@ import javax.annotation.Nullable;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.entity.item.EntityItem;
+import net.minecraft.init.Items;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
@@ -16,19 +17,22 @@ import net.minecraft.network.NetworkManager;
 import net.minecraft.network.play.server.SPacketUpdateTileEntity;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.ITickable;
-import net.minecraft.world.WorldServer;
-import net.minecraft.world.storage.loot.LootContext;
-import net.minecraft.world.storage.loot.LootTable;
+import net.tropicraft.Names;
 import net.tropicraft.core.common.block.tileentity.message.MessageSifterInventory;
 import net.tropicraft.core.common.block.tileentity.message.MessageSifterStart;
+import net.tropicraft.core.common.enums.TropicraftSands;
+import net.tropicraft.core.common.enums.TropicraftShells;
 import net.tropicraft.core.common.network.TCPacketHandler;
-import net.tropicraft.core.registry.LootRegistry;
+import net.tropicraft.core.registry.BlockRegistry;
+import net.tropicraft.core.registry.ItemRegistry;
+
+import static net.tropicraft.core.common.block.BlockTropicraftSands.VARIANT;
 
 public class TileEntitySifter extends TileEntity implements ITickable {
 
 	public enum SiftType {
 		REGULAR,
-		HEATED,
+		HEATED
 	}
 
 	/** Number of seconds to sift multiplied by the number of ticks per second */
@@ -40,7 +44,7 @@ public class TileEntitySifter extends TileEntity implements ITickable {
 	/** Current progress in sifting; -1 if not sifting */
 	public int currentSiftTime;
 
-	private Random rand;    
+	private Random rand;
 
 	public double yaw;
 	public double yaw2 = 0.0D;
@@ -77,25 +81,21 @@ public class TileEntitySifter extends TileEntity implements ITickable {
 	 */
 	public void dumpResults(double x, double y, double z, SiftType type) {
 		/*
-		if (getWorld().isRemote) return;
-		IBlockState state = world.getBlockState(pos);
-
 		if (type == SiftType.HEATED) {
 
-			if (siftItem.getItem() == Item.getItemFromBlock(BlockRegistry.sands) && ((state.getValue(VARIANT) == TropicraftSands.MINERAL)))
-				siftItem = new ItemStack(ItemRegistry.dart);
+			IBlockState state = world.getBlockState(pos);
 
-			spawn(siftItem, x, y, z);
-
-		} else {
-			dumpBeachResults(x, y, z);
+			if (siftItem.getItem() == Item.getItemFromBlock(BlockRegistry.sands) && ((state.getValue(VARIANT) == TropicraftSands.MINERAL))) {
+				dumpBeachResults(x, y, z);
+				this.syncInventory();
+			}
 		}
-		*/
-
 		// if sifter type = heated AND sift item is sands type mineral then and only then use heated sifter loot registry.
 
 		// NOTE: Removed check and drop for heated sifter in 1.12
-		dumpBeachResults(x, y, z);
+		else
+		*/
+			dumpBeachResults(x, y, z);
 		this.syncInventory();
 	}
 
@@ -103,7 +103,25 @@ public class TileEntitySifter extends TileEntity implements ITickable {
 	 * Dump the items involved in regular sifting
 	 */
 	private void dumpBeachResults(double x, double y, double z) {
-		if (getWorld().isRemote) return;
+		int dumpCount = rand.nextInt(3) + 1;
+		ItemStack stack;
+
+		while (dumpCount > 0) {
+			dumpCount--;
+
+			if (rand.nextInt(10) == 0) {
+				stack = getRareItem();
+			} else if (rand.nextInt(10) < 3) {
+				int damage = rand.nextInt(Names.LT17_NAMES.length);
+				stack = new ItemStack(ItemRegistry.ltShell, 1, damage);
+			} else {
+				stack = getCommonItem();
+			}
+
+			spawn(stack, x, y, z);
+		}
+		/*
+				if (getWorld().isRemote) return;
 		LootTable table = getWorld().getLootTableManager().getLootTableFromLocation(isHeatedSifter() ? LootRegistry.sifterHeated : LootRegistry.sifterRegular);
 		LootContext.Builder builder = new LootContext.Builder((WorldServer) getWorld());
 		List<ItemStack> drops = table.generateLootForPools(rand, builder.build());
@@ -113,6 +131,7 @@ public class TileEntitySifter extends TileEntity implements ITickable {
 			}
 		}
 		this.syncInventory();
+		 */
 	}
 
 	/**
@@ -126,6 +145,40 @@ public class TileEntitySifter extends TileEntity implements ITickable {
 		getWorld().spawnEntity(eitem);
 	}
 
+	private ItemStack getCommonItem() {
+		// Random from -1 to size-1
+		int dmg = rand.nextInt(TropicraftShells.values().length + 1) - 1;
+		if (dmg < 0) {
+			return getRareItem();
+		}
+		return new ItemStack(ItemRegistry.shell, 1, dmg);
+	}
+
+	private ItemStack getRareItem() {
+		int dmg = rand.nextInt(12);
+
+		switch (dmg) {
+			case 0:
+				return new ItemStack(ItemRegistry.shell, 1, TropicraftShells.RUBE.getMeta()); //rube nautilus
+			case 1:
+				return new ItemStack(Items.GOLD_NUGGET, 1);
+			case 2:
+				return new ItemStack(Items.BUCKET, 1);
+			case 3:
+				return new ItemStack(Items.WOODEN_SHOVEL, 1);
+			case 4:
+				return new ItemStack(Items.GLASS_BOTTLE, 1);
+			case 5:
+				return new ItemStack(ItemRegistry.whitePearl, 1);
+			case 6:
+				return new ItemStack(ItemRegistry.blackPearl, 1);
+			case 7:
+				return new ItemStack(Items.STONE_SHOVEL, 1);
+			default:
+				return new ItemStack(ItemRegistry.shell, 1, TropicraftShells.RUBE.getMeta()); //rube nautilus
+		}
+	}
+
 	/**
 	 * If the block below this sifter is a heat source, return true
 	 * @return If the block below the sifter should turn this sifter into a heated sifter
@@ -137,13 +190,13 @@ public class TileEntitySifter extends TileEntity implements ITickable {
 
 		return stateBelow.getMaterial() == Material.FIRE || stateBelow.getMaterial() == Material.LAVA;
 	}
-	
+
 	public void addItemToSifter(ItemStack stack) {
 		this.siftItem = stack;
 		this.siftItem.setCount(1);
 		this.syncInventory();
 	}
-	
+
 	public void startSifting() {
 		this.isSifting = true;
 
@@ -151,19 +204,19 @@ public class TileEntitySifter extends TileEntity implements ITickable {
 			TCPacketHandler.INSTANCE.sendToDimension(new MessageSifterStart(this), getWorld().provider.getDimension());
 		}
 	}
-	
+
 	private void stopSifting() {
 		double x = this.pos.getX() + getWorld().rand.nextDouble() * 1.4;
 		double y = this.pos.getY() + getWorld().rand.nextDouble() * 1.4;
 		double z = this.pos.getZ() + getWorld().rand.nextDouble() * 1.4;
 
 		if (!this.getWorld().isRemote) {
-			dumpResults(x, y, z, isHeatedSifter() ? SiftType.HEATED : SiftType.REGULAR);	
+			dumpResults(x, y, z, isHeatedSifter() ? SiftType.HEATED : SiftType.REGULAR);
 		}
 		currentSiftTime = SIFT_TIME;
 		this.isSifting = false;
 		this.siftItem = ItemStack.EMPTY;
-		this.syncInventory();		
+		this.syncInventory();
 	}
 
 	/*
