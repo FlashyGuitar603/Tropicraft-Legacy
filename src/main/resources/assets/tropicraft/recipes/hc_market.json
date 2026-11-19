@@ -12,7 +12,7 @@
     },
     "b": {
       "type": "forge:ore_dict",
-      "ore": "logWood"
+      "ore": "wool"
     },
     "c": {
       "item": "tropicraft:white_pearl"
