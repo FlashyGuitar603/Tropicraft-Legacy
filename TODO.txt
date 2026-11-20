@@ -75,10 +75,10 @@
 
 ## TODO ##
 
-- Revise tiki torch placement and break logic
 - Add a config option to increase or decrease gen rates for overworld pineapples
 - Add compatibility with Future MC's stone cutter and flower types
-- Add crafttwweaker support for the Drink Mixer
+- Add crafttweaker support for the drink mixer
+- Add crafttweaker support for the sifter
 - Add custom damage source for darts
 - Add JEI support for the Drink Mixer
 - Add JER support for tropical mobs
@@ -110,6 +110,7 @@
 - Place the Fire Pit at the center of koa villages, also redo it's smoke particles using CoroUtil's extended renderer
 - Reimplement Forrest Altar Ruins, see WorldGenForrestAltarRuin.java, most likely removed due to procedural structures never being reimplemented
 - Replace Tropical Water bucket with a forge bucket/make it act like a forge bucket
+- Revise tiki torch placement and break logic
 - Revisit all entity related code to the Easter Island Heads
 - The encyclopedia's entity page type is missing a "discover" function thus piggybacking off the item page's implementation of said function making them impossible to unlock without cheats
 - Tropi creepers exploding on any blocks other then grass and dirt should drop a bunch of tropical flower items instead of nothing
